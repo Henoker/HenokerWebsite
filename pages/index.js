@@ -3,8 +3,8 @@ import { Box, Container, Heading, useColorModeValue } from "@chakra-ui/react";
 const Page= ()=>{
     return(
         <Container>
-            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} 
-            p={3} mb={6} align="center">
+            <Box borderRadius="lg" bg="red"
+             mb={6} p={3} mt={18} align="center">
             Hello, I&apos;m a full-stack developer based in Nairobi, Kenya!
             </Box>
             <Box display={{md:'flex'}}>
