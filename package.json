@@ -2,13 +2,11 @@
   "name": "henokerwebsite",
   "version": "1.0.0",
   "description": "Henocks website",
-  
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "prettier": "prettier -write .",
     "lint": "next lint"
-
   },
   "repository": {
     "type": "git",
@@ -22,6 +20,7 @@
   },
   "homepage": "https://github.com/Henoker/HenokerWebsite#readme",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
