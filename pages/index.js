@@ -12,7 +12,7 @@ const Page= ()=>{
                     <Heading as="h2" variant="page-title">
                         Henock Tesfatsion
                     </Heading>
-                    <p>Full Stack Web Developer</p>
+                    <div>Full Stack Web Developer</div>
                 </Box>
             </Box>
            
