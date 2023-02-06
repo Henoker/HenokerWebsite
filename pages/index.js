@@ -1,4 +1,9 @@
-import { Box, Container, Heading, useColorModeValue, Image } from "@chakra-ui/react";
+import NextLink from 'next/link'
+import { Box, Container, Heading, useColorModeValue, Image, Button } from "@chakra-ui/react";
+import Section from "../components/section";
+import Paragraph from "../components/paragraph";
+import { ChevronRightIcon } from '@chakra-ui/icons';
+
 
 
 const Page= ()=>{
@@ -27,6 +32,28 @@ const Page= ()=>{
                     />
                 </Box>
             </Box>
+        <Section delay={0.1}>
+            <Heading as="h3" variant="section-title">
+                Work
+            </Heading>
+            <Paragraph>
+                I am a Full Stack Software and Web Developer. 
+                I specialize in MongoDB, Express, React, Node Js, 
+                Python Django React, and Postgres Projects.
+                In my spare time I enjoy DIY, gaming and building my own projects. 
+                My preferred tools are Python, react/next.js.
+            </Paragraph>
+            <Box align="center" my={4}>
+                <NextLink href="/works">
+                    <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
+                        My Portfolio
+                    </Button>
+
+                </NextLink>
+
+            </Box>
+
+        </Section>
            
         </Container>
         
