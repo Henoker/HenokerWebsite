@@ -1,8 +1,9 @@
 import NextLink from 'next/link'
-import { Box, Container, Heading, useColorModeValue, Image, Button } from "@chakra-ui/react";
+import { Box, Container, Heading, useColorModeValue, Image, Button, Link } from "@chakra-ui/react";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { ChevronRightIcon } from '@chakra-ui/icons';
+import { BioSection, BioYear } from '../components/bio';
 
 
 
@@ -52,6 +53,59 @@ const Page= ()=>{
                 </NextLink>
 
             </Box>
+
+        </Section>
+        <Section delay={0.2}>
+            <Heading as="h3" variant="section-title">
+                Bio
+            </Heading>
+            <BioSection>
+                <BioYear>1982</BioYear>
+                Born in Addis Ababa አዲስ አበባ, Ethiopia ኢትዮጵያ
+            </BioSection>
+            <BioSection>
+                <BioYear>2004</BioYear>
+                Completed Buisness Management BA Degree from Jimma University
+            </BioSection>
+            <BioSection>
+                <BioYear>2004-2013</BioYear>
+                Worked as College Instructor at St Mary's University
+            </BioSection>
+            <BioSection>
+                <BioYear>2011</BioYear>
+                Completed HROD MA Degree from ADDIS ABABA University
+            </BioSection>
+            <BioSection>
+                <BioYear>2013</BioYear>
+                Completed Management Trainee Program in Commercial Bank of Ethiopia
+            </BioSection>
+            <BioSection>
+                <BioYear>2013-2017</BioYear>
+                worked at Commercial Bank of Ethiopia as Credit Analyst
+            </BioSection>
+            <BioSection>
+                <BioYear>2017-present</BioYear>
+                Became a refugee in Nairobi, Kenya and works as a freelancer
+            </BioSection>
+            <BioSection>
+                <BioYear>2022</BioYear>
+                Completed Harvard&apos;s CS50's Web Programming with Python and JavaScript certificate course
+            </BioSection>
+            <BioSection>
+                <BioYear>2022</BioYear>
+                Completed Jhon Hopkins University&apos;s  HTML, CSS, and Javascript for Web Developers certificate course
+            </BioSection>
+        </Section>
+        <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+                Hobby
+            </Heading>
+            <Paragraph>
+                Art, Music, {' '}
+                <Link href="https://github.com/EddieHubCommunity">
+                    Open Source participation
+                </Link>
+            </Paragraph>
 
         </Section>
            
