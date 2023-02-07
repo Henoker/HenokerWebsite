@@ -4,11 +4,13 @@ import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import { BioSection, BioYear } from '../components/bio';
+import Layout from '../components/layouts/article';
 
 
 
 const Page= ()=>{
     return(
+        <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
              mb="6" p="3" mt="18" textAlign="center">
@@ -110,6 +112,7 @@ const Page= ()=>{
         </Section>
            
         </Container>
+        </Layout>
         
     )
 }

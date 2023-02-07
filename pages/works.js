@@ -5,9 +5,11 @@ import thumbnailproject2 from "../public/images/project2.png";
 import thumbnailEPMS from "../public/images/EPMS.png";
 import thumbnailephie from "../public/images/EPHIE.png";
 import thumbnaildashboard from "../public/images/ReactDashboard.png";
+import Layout from "../components/layouts/article";
 
 const Works = ()=> {
     return (
+        <Layout>
         <Container>
             <Heading as="h3" fontSize={20} mb={4}>
                 Works            
@@ -36,6 +38,7 @@ const Works = ()=> {
 
             </SimpleGrid>
         </Container>
+        </Layout>
     )
 }
 
