@@ -1,6 +1,9 @@
 import Head from "next/head";
 import {Box,Container} from '@chakra-ui/react';
 import Navbar from "../navbar";
+import { WorkImage} from "../work";
+
+
 
 const Main = ({ children, router}) => {
     return (
@@ -11,6 +14,7 @@ const Main = ({ children, router}) => {
             </Head>
                 <Navbar path={router.asPath}/>
                 <Container maxW="container.md" pt="14">
+                <WorkImage src="/images/mycode.gif" alt="herogif"/>
                     {children}
                 </Container>
             
