@@ -1,7 +1,7 @@
 import { Container, Link, Badge, List, ListItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from "../../components/work";
-import p from "../../components/paragraph";
+import psect from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => {
@@ -11,9 +11,9 @@ const Work = () => {
                 <Title>
                     EPMS <Badge>2022</Badge>
                 </Title>
-                <p>
+                <psect>
                 This app is an end-to-end project management tool built with translators in mind. It helps to manage and automate translation and localization workflows with ease. It is designed for my current employers in mind and the basic aim is to manage our client requirements, our company&apos;s internal processes, and vendor management in one seamless online environment. The EPMS Translation Project Management System has the following features and app components:
-                </p>
+                </psect>
                 <List ml={4} my={4}>
                     <ListItem>1. Project Management capability with CRUD functionality.</ListItem>
                     <ListItem>2. Client Management System</ListItem>

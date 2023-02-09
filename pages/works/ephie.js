@@ -1,7 +1,7 @@
 import { Container, Link, Badge, List, ListItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from "../../components/work";
-import p from "../../components/paragraph";
+import psect from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => {
@@ -11,9 +11,9 @@ const Work = () => {
                 <Title>
                     EPHIE <Badge>2023</Badge>
                 </Title>
-                <p>
+                <psect>
                 This is a react/next js restaurant landing page that is designed for my clients in Fremont, California. The app utilizes Google app engine API to handle customer booking requests.
-                </p>
+                </psect>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
