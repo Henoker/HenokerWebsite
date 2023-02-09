@@ -1,10 +1,16 @@
 import NextLink from 'next/link'
-import { Box, Container, Heading, useColorModeValue, Image, Button, Link } from "@chakra-ui/react";
+import { Box, Container, Heading, useColorModeValue, Image, Button, Link, SimpleGrid, List, ListItem, Icon } from "@chakra-ui/react";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import { BioSection, BioYear } from '../components/bio';
+import { GridItem } from '../components/grid-item';
 import Layout from '../components/layouts/article';
+import {
+    IoLogoLinkedin,
+    IoLogoYoutube,
+    IoLogoTwitter,
+    IoLogoGithub } from "react-icons/io";
 
 
 
@@ -110,7 +116,34 @@ const Page= ()=>{
             </Paragraph>
 
         </Section>
-           
+           <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+                My social Media Links
+            </Heading>
+            <List>
+                <ListItem>
+                    <Link href="https://github.com/Henoker" target="_blank">
+                        <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}>Github</Button>
+                    </Link>
+                </ListItem>
+                <ListItem>
+                    <Link href="https://www.linkedin.com/in/henock-beyene-tesfatsion-921ba54b/" target="_blank">
+                        <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>}>Linkedin</Button>
+                    </Link>
+                </ListItem>
+                <ListItem>
+                    <Link href="https://www.youtube.com/channel/UCj7FaUjkPqXD7YTTzbILuNA" target="_blank">
+                        <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoYoutube}/>}>Youtube</Button>
+                    </Link>
+                </ListItem>
+                <ListItem>
+                    <Link href="https://twitter.com/Henocktsion" target="_blank">
+                        <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter}/>}>Twitter</Button>
+                    </Link>
+                </ListItem>
+            </List>
+            
+           </Section>
         </Container>
         </Layout>
         
