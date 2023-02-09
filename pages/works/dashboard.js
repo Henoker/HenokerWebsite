@@ -27,7 +27,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Tech Stacks</Meta>
-                        <span>'React', 'Material UI', 'Chart js'</span>
+                        <span>React, Material UI, Chart js</span>
                     </ListItem>
                 </List>
                 <WorkImage src="/images/ReactDashboard.png" alt="dashboard"/>

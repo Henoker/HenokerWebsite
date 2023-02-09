@@ -77,7 +77,7 @@ const Page= ()=>{
             </BioSection>
             <BioSection>
                 <BioYear>2004-2013</BioYear>
-                Worked as College Instructor at St Mary's University
+                Worked as College Instructor at St Mary&apos;s University
             </BioSection>
             <BioSection>
                 <BioYear>2011</BioYear>
@@ -97,7 +97,7 @@ const Page= ()=>{
             </BioSection>
             <BioSection>
                 <BioYear>2022</BioYear>
-                Completed Harvard&apos;s CS50's Web Programming with Python and JavaScript certificate course
+                Completed Harvard&apos;s CS50&apos;s Web Programming with Python and JavaScript certificate course
             </BioSection>
             <BioSection>
                 <BioYear>2022</BioYear>

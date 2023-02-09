@@ -27,7 +27,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Tech Stacks</Meta>
-                        <span>'Django', 'JavaScript', 'SQLite'</span>
+                        <span>Django, JavaScript, SQLite</span>
                     </ListItem>
                 </List>
                 <WorkImage src="/images/project2.png" alt="auction"/>
