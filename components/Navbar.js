@@ -23,13 +23,19 @@ const LinkItem = ({ href, path, children}) => {
     const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
     return (
         <NextLink href={href}>
-            <Link p={2} 
+            <Link p={2} as={Link}
             bg={active ? 'grassTeal' : undefined}
             color={active ? '#202023': inactiveColor}
             >
-                {children}
+              
+              {children}
+            
+                
             </Link>
         </NextLink>
+
+     
+      
        
     )
 }
