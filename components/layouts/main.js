@@ -1,8 +1,13 @@
 import Head from "next/head";
 import {Box,Container} from '@chakra-ui/react';
 import { WorkImage} from "../work";
+import dynamic from "next/dynamic";
 
-import NavBar from "../navbar";
+// import NavBar from "../navbar";
+
+const NavBar = dynamic(() => import('../navbar'), {
+    ssr: false,
+});
 
 const Main = ({ children, router}) => {
     return (
