@@ -3,6 +3,7 @@ import { GridItem } from "../components/grid-item";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import thumbnailEPMS from "../public/images/EPMS.png";
+import thumbnailScamper from "../public/images/scamper.png";
 
 
 
@@ -15,8 +16,12 @@ const Posts = ()=> (
             <Section delay={0.1}>
                 <SimpleGrid columns={[1,2,2]} gap={6}>
                     <GridItem title="Why EPMS?" thumbnail={thumbnailEPMS}/>
+                    <GridItem title="SCAMPER Technique in Programming" thumbnail={thumbnailScamper}/>
                 </SimpleGrid>
             </Section>
+            
+                   
+               
 
         </Container>
 
