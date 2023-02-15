@@ -19,7 +19,7 @@ const Main = ({ children, router}) => {
             <NavBar path={router.asPath}/>
               
                 <Container maxW="container.md" pt="14">
-                <WorkImage src="/images/animate.gif" alt="herogif"/>
+                <WorkImage src="/images/animatemed1.gif" alt="herogif"/>
                     {children}
                 </Container>
             
