@@ -5,6 +5,7 @@ import thumbnailproject2 from "../public/images/project2.png";
 import thumbnailEPMS from "../public/images/EPMS.png";
 import thumbnailephie from "../public/images/EPHIE.png";
 import thumbnaildashboard from "../public/images/ReactDashboard.png";
+import thumbnailgeo from "../public/images/geopolitical.png";
 import Layout from "../components/layouts/article";
 
 const Works = ()=> {
@@ -33,6 +34,11 @@ const Works = ()=> {
                 <Section>
                     <WorkGridItem id="dashboard" title="A React Dashboard" thumbnail={thumbnaildashboard}>
                     A React Dashboard App
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="geopolitical" title="Geopolitical Analytical Tool " thumbnail={thumbnailgeo}>
+                    Geopolitical Rating Tool Using Python Tkinter
                     </WorkGridItem>
                 </Section>
 
