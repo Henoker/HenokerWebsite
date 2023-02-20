@@ -6,7 +6,7 @@ import Layout from "../../components/layouts/article";
 
 const Work = () => {
     return (
-        <Layout title="auction">
+        <Layout title="geopolitical">
             <Container>
                 <Title>
                     A Geopolitical Analytical Tool <Badge>2021</Badge>
