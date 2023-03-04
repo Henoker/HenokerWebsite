@@ -2,12 +2,18 @@ import Head from "next/head";
 import {Box,Container} from '@chakra-ui/react';
 import { WorkImage} from "../work";
 import dynamic from "next/dynamic";
+import VoxelDogLoader from '../voxel-dog-loader'
 
-// import NavBar from "../navbar";
+import NavBar from "../navbar";
 
-const NavBar = dynamic(() => import('../navbar'), {
+// const NavBar = dynamic(() => import('../navbar'), {
+//     ssr: false,
+// });
+
+const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
     ssr: false,
-});
+    loading: () => <VoxelDogLoader />
+})
 
 const Main = ({ children, router}) => {
     return (
@@ -18,10 +24,13 @@ const Main = ({ children, router}) => {
             </Head>
             <NavBar path={router.asPath}/>
               
-                <Container maxW="container.md" pt="14">
-                <WorkImage src="/images/animatered2.gif" alt="herogif"/>
-                    {children}
-                </Container>
+            <Container maxW="container.md" pt={14}>
+            <LazyVoxelDog />
+
+            {children}
+
+            {/* <Footer /> */}
+      </Container>
             
         </Box>
     )
