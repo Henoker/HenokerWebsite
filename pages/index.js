@@ -103,6 +103,14 @@ const Page= ()=>{
                 <BioYear>2022</BioYear>
                 Completed Jhon Hopkins University&apos;s  HTML, CSS, and Javascript for Web Developers certificate course
             </BioSection>
+            <BioSection>
+                <BioYear>2023</BioYear>
+                Completed Meta&apos;s  Introduction to Frontend Development Professional certificate course
+            </BioSection>
+            <BioSection>
+                <BioYear>2023</BioYear>
+                Completed Meta&apos;s  React Basics Professional certificate course
+            </BioSection>
         </Section>
         <Section delay={0.3}>
             <Heading as="h3" variant="section-title">

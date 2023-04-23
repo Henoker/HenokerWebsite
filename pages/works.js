@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
@@ -39,6 +40,11 @@ const Works = ()=> {
                 <Section>
                     <WorkGridItem id="geopolitical" title="Geopolitical Analytical Tool " thumbnail={thumbnailgeo}>
                     Geopolitical Rating Tool Using Python Tkinter
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="ephie" title="Restaurant Landing Page" thumbnail={thumbnailephie}>
+                    A Restaurant landing page with React/nextjs
                     </WorkGridItem>
                 </Section>
 

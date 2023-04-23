@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
@@ -25,7 +26,6 @@ const VoxelDog = () => {
     }
   }, [])
 
-  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     const { current: container } = refContainer
     if (container) {
@@ -52,7 +52,7 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.036 + 4.8
+      const scale = scH * 0.026 + 4.8
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,

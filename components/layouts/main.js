@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 import Head from "next/head";
 import {Box,Container} from '@chakra-ui/react';
-import { WorkImage} from "../work";
 import dynamic from "next/dynamic";
 import VoxelDogLoader from '../voxel-dog-loader'
 
@@ -29,7 +29,7 @@ const Main = ({ children, router}) => {
 
             {children}
 
-            {/* <Footer /> */}
+            
       </Container>
             
         </Box>
