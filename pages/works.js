@@ -5,6 +5,7 @@ import { WorkGridItem } from "../components/grid-item";
 import thumbnailproject2 from "../public/images/project2.png";
 import thumbnailEPMS from "../public/images/EPMS.png";
 import thumbnailephie from "../public/images/EPHIE.png";
+import thumbnailethio from "../public/images/ethioservices.png";
 import thumbnaildashboard from "../public/images/ReactDashboard.png";
 import thumbnailgeo from "../public/images/geopolitical.png";
 import Layout from "../components/layouts/article";
@@ -43,8 +44,8 @@ const Works = ()=> {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="ephie" title="Restaurant Landing Page" thumbnail={thumbnailephie}>
-                    A Restaurant landing page with React/nextjs
+                    <WorkGridItem id="ethiostaram" title="Translation and Localization company website" thumbnail={thumbnailethio}>
+                    A Translation and localization company websie with React/nextjs
                     </WorkGridItem>
                 </Section>
 
