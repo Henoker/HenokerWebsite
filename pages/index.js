@@ -47,10 +47,10 @@ const Page= ()=>{
             </Heading>
             <Paragraph>
                 I am a Full Stack Software and Web Developer. 
-                I specialize in MongoDB, Express, React, Node Js, 
-                Python Django React, and Postgres Projects.
+                I specialize in Python Django, React, Postgresql MongoDB, 
+                Express, Next js, and Node Js Projects.
                 In my spare time I enjoy DIY, gaming and building my own projects. 
-                My preferred tools are Python, react/next.js.
+                My preferred tech tools are Python, react/next.js and docker.
             </Paragraph>
             <Box align="center" my={4}>
                 <NextLink href="/works">
