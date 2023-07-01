@@ -1,38 +1,48 @@
-/* eslint-disable react/prop-types */
-import Head from "next/head";
-import {Box,Container} from '@chakra-ui/react';
-import dynamic from "next/dynamic";
+import Head from 'next/head'
+import dynamic from 'next/dynamic'
+import NavBar from '../navbar'
+import { Box, Container } from '@chakra-ui/react'
+import Footer from '../footer'
 import VoxelDogLoader from '../voxel-dog-loader'
 
-import NavBar from "../navbar";
-
-// const NavBar = dynamic(() => import('../navbar'), {
-//     ssr: false,
-// });
-
 const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
-    ssr: false,
-    loading: () => <VoxelDogLoader />
+  ssr: false,
+  loading: () => <VoxelDogLoader />
 })
 
-const Main = ({ children, router}) => {
-    return (
-        <Box as="main" pb={8}>
-            <Head>
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>Henock Tesfatsion - HomePage</title>
-            </Head>
-            <NavBar path={router.asPath}/>
-              
-            <Container maxW="container.md" pt={14}>
-            <LazyVoxelDog />
+const Main = ({ children, router }) => {
+  return (
+    <Box as="main" pb={8}>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Henock's homepage" />
+        <meta name="author" content="Henock Tesfatsion" />
+        <meta name="author" content="henoker" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <meta name="twitter:title" content="Henock Tesfatsion" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Henocktsion" />
+        <meta name="twitter:creator" content="@Henocktsion" />
+        <meta name="twitter:image" content="https://www.henoker.com/card.png" />
+        <meta property="og:site_name" content="Henock Tesfatsion" />
+        <meta name="og:title" content="Henock Tesfatsion" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.henoker.com/card.png" />
+        <title>Henock Tesfatsion - Homepage</title>
+      </Head>
 
-            {children}
+      <NavBar path={router.asPath} />
 
-            
+      <Container maxW="container.md" pt={14}>
+        <LazyVoxelDog />
+
+        {children}
+
+        <Footer />
       </Container>
-            
-        </Box>
-    )
+    </Box>
+  )
 }
+
 export default Main

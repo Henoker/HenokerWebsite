@@ -20,21 +20,20 @@
   },
   "homepage": "https://github.com/Henoker/HenokerWebsite#readme",
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.17",
-    "@chakra-ui/react": "^2.4.9",
+    "@chakra-ui/icons": "^2.0.15",
+    "@chakra-ui/react": "^2.4.6",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "framer-motion": "^9.0.1",
-    "next": "^13.1.6",
+    "framer-motion": "^8.4.0",
+    "next": "^13.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "three": "^0.150.1"
+    "three": "^0.148.0"
   },
   "devDependencies": {
     "eslint": "^8.31.0",
     "eslint-config-next": "^13.1.1",
-    "eslint-plugin-react": "^7.32.2",
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.2"
   }
 }

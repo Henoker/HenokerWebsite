@@ -1,24 +1,24 @@
 /* eslint-disable react/prop-types */
-import { ChakraProvider } from "@chakra-ui/react";
-import Layout from "../components/layouts/main.js";
-import Fonts from "../components/fonts.js";
-import theme from "../lib/theme.js";
-import { AnimatePresence } from "framer-motion";
+import { ChakraProvider } from '@chakra-ui/react'
+import Layout from '../components/layouts/main.js'
+import Fonts from '../components/fonts.js'
+import theme from '../lib/theme.js'
+import { AnimatePresence } from 'framer-motion'
 
 // if (typeof window !== 'undefined') {
 //     window.history.scrollRestoration = 'manual'
 // }
 
 const Website = ({ Component, pageProps, router }) => {
-    return (
-        <ChakraProvider theme={theme}>
-            <Fonts/>
-            <Layout router={router}>
-                <AnimatePresence mode="wait" initial={true}>
-                  <Component {...pageProps} key={router.route}/>
-                </AnimatePresence>
-            </Layout>
-        </ChakraProvider>
-    )
-} 
+  return (
+    <ChakraProvider theme={theme}>
+      <Fonts />
+      <Layout router={router}>
+        <AnimatePresence mode="wait" initial={true}>
+          <Component {...pageProps} key={router.route} />
+        </AnimatePresence>
+      </Layout>
+    </ChakraProvider>
+  )
+}
 export default Website
