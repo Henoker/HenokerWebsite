@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -24,7 +23,7 @@ const Works = () => {
               title="EPMS Project Management App"
               thumbnail={thumbnailEPMS}
             >
-              A Project Management App With PDF Invoice Generation Capability
+              A Translation Project Management App for my client Ethiostar
             </WorkGridItem>
           </Section>
           <Section>
