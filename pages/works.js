@@ -28,6 +28,15 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem
+              id="ethiostaram"
+              title="Translation and Localization company website"
+              thumbnail={thumbnailethio}
+            >
+              A Translation and localization company websie with React/nextjs
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
               id="ephie"
               title="Restaurant Landing Page"
               thumbnail={thumbnailephie}
@@ -60,15 +69,6 @@ const Works = () => {
               thumbnail={thumbnailgeo}
             >
               Geopolitical Rating Tool Using Python Tkinter
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="ethiostaram"
-              title="Translation and Localization company website"
-              thumbnail={thumbnailethio}
-            >
-              A Translation and localization company websie with React/nextjs
             </WorkGridItem>
           </Section>
         </SimpleGrid>
