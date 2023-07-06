@@ -23,7 +23,7 @@ const Works = () => {
               title="EPMS Project Management App"
               thumbnail={thumbnailEPMS}
             >
-              A Translation Project Management App for my client Ethiostar
+              A Translation Project Management App with Python Django 
             </WorkGridItem>
           </Section>
           <Section>

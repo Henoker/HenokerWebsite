@@ -12,14 +12,13 @@ const Work = () => {
           EPMS <Badge>2022</Badge>
         </Title>
         <P>
-          This app is an end-to-end project management tool built with
-          translators in mind. It helps to manage and automate translation and
-          localization workflows with ease. It is designed for my current
-          employers in mind and the basic aim is to manage our client
-          requirements, our company&apos;s internal processes, and vendor
-          management in one seamless online environment. The EPMS Translation
-          Project Management System has the following features and app
-          components:
+          This app is an end-to-end project management tool built for translation
+          and localization companies. It helps to manage and automate translation and
+          localization workflows with ease. It is designed for my client Ethisotar
+          translation and localization company. It helps the comapny to manage
+          internal project, client, and vendor management processes, in one seamless 
+          online environment. The EPMS Translation Project Management System has 
+          the following features and app components:
         </P>
         <List ml={4} my={4}>
           <ListItem>
@@ -49,8 +48,8 @@ const Work = () => {
           <ListItem>
             <Meta>Tech Stacks</Meta>
             <span>
-              Python, Django, Docker, PostgrSQL, JavaScript, HTML, Bootstarp,
-              WeasyPrint, Jquery
+              Python, Django, Docker, Nginx, Gunicorn, PostgrSQL, JavaScript, 
+              HTML, Bootstarp, WeasyPrint, Jquery.
             </span>
           </ListItem>
         </List>
