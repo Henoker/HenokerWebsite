@@ -32,7 +32,7 @@ const Work = () => {
           </ListItem>
           <ListItem>6. Client order Management System.</ListItem>
           <ListItem>7. Vendor Job Assignement System.</ListItem>
-          <ListItem>8. Vendor Performance System.</ListItem>
+          <ListItem>8. Vendor Performance rating System.</ListItem>
         </List>
         <List ml={8} my={8}>
           <ListItem>

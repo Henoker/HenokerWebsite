@@ -14,7 +14,7 @@ const Work = () => {
         <P>
           This is a react/next js restaurant landing page that is designed for
           my clients in Fremont, California. The app utilizes Google app engine
-          API to handle customer booking requests.
+          API to handle customer requests.
         </P>
         <List ml={4} my={4}>
           <ListItem>

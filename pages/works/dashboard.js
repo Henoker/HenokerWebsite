@@ -9,12 +9,12 @@ const Work = () => {
     <Layout title="dashboard">
       <Container>
         <Title>
-          React DashBoard APP <Badge>2022</Badge>
+          React Dashboard APP <Badge>2022</Badge>
         </Title>
         <P>
           This is a react dashboard app modified from zainkeepscode tutorial
-          using SCAMPER methodology. I have used React, Material UI, framer
-          motions and react-apex chart for this project.
+          using SCAMPER methodology. I have learned about React, Material UI, framer
+          motions and react-apex chart on this project.
         </P>
         <List ml={4} my={4}>
           <ListItem>
