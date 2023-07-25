@@ -1,4 +1,4 @@
-import { Container, Link, Badge, List, ListItem } from '@chakra-ui/react'
+import { Container, Link, Badge, List, ListItem, Heading } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -11,7 +11,21 @@ const Work = () => {
         <Title>
           EPMS <Badge>2022</Badge>
         </Title>
+        <Heading>
+          Problem Statement
+        </Heading>
+        <P> Before EPMS, the company&nbsp;s Translation and localization project
+          management process relies on manual communication (email) and excel based
+          recording system, leading to delays and potential project loss. 
+          Assigning tasks to translators/vendors and following up the status of a task 
+          was time-consuming and error prone. The previous process involves time-consuming
+          communication and manual checks in assigning tasks for vendors/translators. 
+          also, SAAS solution in the market are expensive since they charge 250 USD per 
+          user access.</P>
         <P>
+        <Heading>
+          My solution
+        </Heading>
           This app is an end-to-end project management tool built for translation
           and localization companies. It helps to manage and automate translation and
           localization workflows with ease. It is designed for my client Ethisotar
