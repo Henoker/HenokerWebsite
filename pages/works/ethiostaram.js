@@ -1,4 +1,4 @@
-import { Container, Link, Badge, List, ListItem } from '@chakra-ui/react'
+import { Container, Link, Badge, List, ListItem, Heading } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -11,14 +11,24 @@ const Work = () => {
         <Title>
           Ethiostar America <Badge>2023</Badge>
         </Title>
+        <Heading>
+          Problem Statement
+        </Heading>
         <P>
-          This is a translation and localization company website powered by
-          Next.js and tailwind css! The website features an instant quote tool
-          that allows you to get an estimate for your translation project
-          quickly and easily. Vistors simply can enter the details of the
-          project, such as the language pair and word count, and the
-          incorporated quote calculator will generate an instant quote. 
-          The project is designed for my clients in United States.
+          The client Ethisotar America Translation and Localization company 
+          wants a lanading page with an instant price quotation system. 
+        </P>
+        <Heading>
+          My solution
+        </Heading>
+        <P>
+         I developed the app using Next.js and tailwind css! 
+         The website features an instant quote tool
+         that allows you to get an estimate for your translation project
+         quickly and easily. Vistors simply can enter the details of the
+         project, such as the language pair and word count, and the
+         incorporated quote calculator will generate an instant quote. 
+        The project is designed for my clients in United States.
         </P>
         <List ml={4} my={4}>
           <ListItem>
