@@ -14,7 +14,7 @@ const Work = () => {
         <Heading>
           Problem Statement
         </Heading>
-        <P> Before EPMS, the company&nbsp;s Translation and localization project
+        <P> Before EPMS, the company&apos;s Translation and localization project
           management process relies on manual communication (email) and excel based
           recording system, leading to delays and potential project loss. 
           Assigning tasks to translators/vendors and following up the status of a task 
