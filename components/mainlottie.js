@@ -33,7 +33,7 @@ const Mainlottie = () => {
   };
  
   return (
-    <DogContainer ref={refContainer}><Lottie options={defaultOptions} height={440} width={520} /></DogContainer>
+    <DogContainer ref={refContainer}><Lottie options={defaultOptions} height={420} width={470} /></DogContainer>
     )
 };
   
