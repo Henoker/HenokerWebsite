@@ -1,6 +1,7 @@
 import Lottie from 'react-lottie';
 import * as animationData from '../public/mainlottie.json';
-import { useRef, useCallback, useEffect } from 'react'
+import { useRef, useCallback, useEffect } from 'react';
+import { Box } from '@chakra-ui/react';
 
 
 const Mainlottie = () => {
@@ -32,7 +33,10 @@ const Mainlottie = () => {
   };
  
   return (
-    <Lottie options={defaultOptions} height={340} width={380} />
+    <Box  m="auto">
+      <Lottie options={defaultOptions} height={260} width={300} />
+    </Box>
+    
     )
 };
   
