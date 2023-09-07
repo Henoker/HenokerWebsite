@@ -1,6 +1,5 @@
 import Lottie from 'react-lottie';
 import * as animationData from '../public/mainlottie.json';
-import { DogContainer } from './voxel-dog-loader'
 import { useRef, useCallback, useEffect } from 'react'
 
 
@@ -33,7 +32,7 @@ const Mainlottie = () => {
   };
  
   return (
-    <DogContainer ref={refContainer}><Lottie options={defaultOptions} height={420} width={470} /></DogContainer>
+    <Lottie options={defaultOptions} height={340} width={380} />
     )
 };
   
