@@ -121,7 +121,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completed Jhon Hopkins University&apos;s HTML, CSS, and Javascript
+            Completed John Hopkins University&apos;s HTML, CSS, and Javascript
             for Web Developers certificate course
           </BioSection>
           <BioSection>
