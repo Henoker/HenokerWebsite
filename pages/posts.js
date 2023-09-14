@@ -1,8 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import { GridItem } from '../components/grid-item'
+import { PostGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import thumbnailEPMS from '../public/images/EPMS.png'
 import thumbnailScamper from '../public/images/scamper.png'
 
 const Posts = () => (
@@ -13,11 +12,20 @@ const Posts = () => (
       </Heading>
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem title="Why EPMS?" thumbnail={thumbnailEPMS} />
+          {/* <GridItem title="Why EPMS?" thumbnail={thumbnailEPMS} />
           <GridItem
             title="SCAMPER Technique in Programming"
             thumbnail={thumbnailScamper}
-          />
+          /> */}
+          <Section>
+            <PostGridItem
+              id="scamper"
+              title="SCAMPER Technique in Web Development and Software Development"
+              thumbnail={thumbnailScamper}
+            >
+              The Application of SCAMPER Technique in Web Development and Software Development
+            </PostGridItem>
+          </Section>
         </SimpleGrid>
       </Section>
     </Container>
