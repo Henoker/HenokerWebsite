@@ -1,7 +1,7 @@
 import { Container, Badge, Heading } from '@chakra-ui/react'
 import { Title, WorkImage } from '../../components/work'
-import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import Paragraph from '../../components/paragraph'
 
 const Scamper = () => {
   return (
@@ -14,7 +14,7 @@ const Scamper = () => {
         The Application of SCAMPER Technique in Web Development and Software Development
         </Heading>
         <WorkImage src="/images/scamper.png" alt="scamper" />
-        <P> 
+        <Paragraph> 
          In the ever-evolving landscape of web and software development, creativity and adaptability
          are key. One technique that has proven to be invaluable in fostering innovation is SCAMPER. 
          Originally designed as a brainstorming tool, SCAMPER can be adapted seamlessly into the realm 
@@ -24,8 +24,8 @@ const Scamper = () => {
          Substitute, Combine, Adapt, Modify/Magnify, Put to another use, Eliminate, and Reverse/Rearrange.
          In this article, we will explore how each element of SCAMPER can be applied to this field, offering 
          developers a powerful framework for ideation and project execution.
-        </P>
-        <P>
+        </Paragraph>
+        <Paragraph>
         <Heading>
          Substitute
         </Heading>
@@ -34,8 +34,8 @@ const Scamper = () => {
         CSS, and JavaScript, consider substituting standard CSS with a powerful framework like Tailwind 
         CSS or using SCSS to enhance styling. This can lead to more efficient code and a distinct visual 
         appeal.
-        </P>
-        <P>
+        </Paragraph>
+        <Paragraph>
         <WorkImage src="/images/CSSframeworks.jpg" alt="scamper" />
         <Heading>
         Combine
@@ -44,8 +44,8 @@ const Scamper = () => {
         to build a frontend dashboard using a specific framework, consider combining it with a backend 
         built on PHP, Django, or Express. This integration can open up a world of possibilities, from 
         interactive user experiences to seamless data management.
-        </P>
-        <P>
+        </Paragraph>
+        <Paragraph>
         <WorkImage src="/images/fullstack.jpg" alt="scamper" />
         <Heading>
         Adapt
@@ -54,8 +54,8 @@ const Scamper = () => {
         an unresponsive application, challenge yourself to adapt it into a responsive one. This not only 
         enhances user experience but also showcases your versatility as a developer. Additionally, consider
         adding new features or components to an existing project to elevate its functionality and appeal.
-        </P>
-        <P>
+        </Paragraph>
+        <Paragraph>
         <WorkImage src="/images/Responsive.jpg" alt="scamper" />
         <Heading>
         Modify
@@ -63,8 +63,8 @@ const Scamper = () => {
         Modifying elements of a project allows you to put your unique stamp on it. This can range from 
         altering color schemes and fonts to restructuring the code for better efficiency. Do not shy away 
         from making changes that align with your vision and goals for the project.
-        </P>
-        <P>
+        </Paragraph>
+        <Paragraph>
         <WorkImage src="/images/brandColors.jpg" alt="scamper" />
         <Heading>
         Put to Another Use
@@ -73,8 +73,8 @@ const Scamper = () => {
         project for a specific purpose, consider how it could be repurposed. For example, a tool designed
         for general invoice generation could be adapted for the creation of purchase orders. This not only 
         demonstrates your resourcefulness but also expands the utility of your creations.
-        </P>
-        <P>
+        </Paragraph>
+        <Paragraph>
         <WorkImage src="/images/poinvoice.jpg" alt="scamper" />
         <Heading>
         Eliminate
@@ -82,8 +82,8 @@ const Scamper = () => {
         Simplicity and efficiency are often at the heart of great software. Applying the Eliminate principle
         involves stripping away unnecessary features or complexities. Streamlining your project can lead to 
         faster load times, better user experiences, and cleaner code.
-        </P>
-        <P>
+        </Paragraph>
+        <Paragraph>
         <WorkImage src="/images/UiTree.jpg" alt="scamper" />
         <Heading>
         Reverse
@@ -91,14 +91,14 @@ const Scamper = () => {
         Turning things on their head can lead to fresh perspectives. Rearrange the order of components or
         redesign layouts to breathe new life into a project. This can lead to more intuitive navigation and
         improved user engagement.
-        </P>
-        <p>
+        </Paragraph>
+        <Paragraph>
         By integrating SCAMPER into your learning process and project development, you unlock a world of 
         creative potential. Embrace each element of this technique to not only learn new programming 
         languages but also to craft unique, innovative projects that set you apart in the world of web 
         and software development. Challenge conventions, adapt to change, and let your creativity flourish. 
         The possibilities are boundless. Happy coding! 
-        </p>
+        </Paragraph>
         
       </Container>
     </Layout>
