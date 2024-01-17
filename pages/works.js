@@ -5,7 +5,7 @@ import thumbnailproject2 from '../public/images/project2.png'
 import thumbnailEPMS from '../public/images/EPMS.png'
 import thumbnailephie from '../public/images/EPHIE.png'
 import thumbnailethio from '../public/images/ethioservices.png'
-import thumbnaildashboard from '../public/images/ReactDashboard.png'
+import thumbnailProperty from '../public/images/our-properties-catalog.png'
 import thumbnailgeo from '../public/images/geopolitical.png'
 import Layout from '../components/layouts/article'
 
@@ -37,6 +37,15 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem
+              id="relators"
+              title="A Relators App with Django and React Js"
+              thumbnail={thumbnailProperty}
+            >
+              A Realtors App with Django and React Js
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
               id="ephie"
               title="Restaurant Landing Page"
               thumbnail={thumbnailephie}
@@ -51,15 +60,6 @@ const Works = () => {
               thumbnail={thumbnailproject2}
             >
               An E-commerce Auction App
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="dashboard"
-              title="A React Dashboard"
-              thumbnail={thumbnaildashboard}
-            >
-              A React Dashboard App
             </WorkGridItem>
           </Section>
           <Section>
