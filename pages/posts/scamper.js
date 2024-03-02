@@ -57,8 +57,8 @@ const Scamper = () => {
         an unresponsive application, challenge yourself to adapt it into a responsive one. This not only 
         enhances user experience but also showcases your versatility as a developer. Additionally, consider
         adding new features or components to an existing project to elevate its functionality and appeal. For
-        example, if you were learning about a frontend project on how to lmake a landing page using any 
-        programming language or framework and te contact page do not have a backend functionality, you can add
+        example, if you were learning about a frontend project on how to make a landing page using any 
+        programming language or framework and the contact page do not have a backend functionality, you can add
         on it a backend functionality using Google App Engine in order to store the contact message into Google
         Spreadsheet.   
         </Paragraph>
@@ -102,7 +102,7 @@ const Scamper = () => {
         </Heading>
         Turning things on their head can lead to fresh perspectives. Rearrange the order of components or
         redesign layouts to breathe new life into a project. This can lead to more intuitive navigation and
-        improved user engagement. You can arrange the website cascading flow in new a new mamner. This will 
+        improved user engagement. You can arrange the website cascading flow in new a new manner. This will 
         gives you a new fresh look in your design. 
         </Paragraph>
         <Paragraph>
