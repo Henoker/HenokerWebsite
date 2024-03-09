@@ -30,7 +30,8 @@ const Scamper = () => {
          Substitute
         </Heading>
         Substitution is a powerful concept in programming. It encourages developers to think beyond the 
-        standard tools and technologies. For instance, if a tutorial demonstrates a project using HTML, 
+        standard tools and technologies. Substitution is all about changing the inputs i.e Color ,style, 
+        tools, technologies, frameworks etc. For instance, if a tutorial demonstrates a project using HTML, 
         CSS, and JavaScript, consider substituting standard CSS with a powerful framework like Tailwind 
         CSS or using SCSS to enhance styling. This can lead to more efficient code and a distinct visual 
         appeal. Also, You can replace the javascript with react or next js or vice versa. Also, You can 
