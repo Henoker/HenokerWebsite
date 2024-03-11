@@ -47,7 +47,7 @@ const Scamper = () => {
         to build a frontend dashboard using a specific framework, consider combining it with a backend 
         built on PHP, Django, or Express. This integration can open up a world of possibilities, from 
         interactive user experiences to seamless data management. You can combine two Youtube tutorials or 
-        Udemy courses and create some new project for your portfolio that you can call your own. 
+        web and app development courses and create some new project for your portfolio that you can call your own. 
         </Paragraph>
         <Paragraph>
         <WorkImage src="/images/fullstack.jpg" alt="scamper" />
