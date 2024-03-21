@@ -29,7 +29,7 @@ const Work = () => {
           This app is an end-to-end project management tool built for translation
           and localization companies. It helps to manage and automate translation and
           localization workflows with ease. It is designed for my client Ethisotar
-          translation and localization company. It helps the comapny to manage
+          translation and localization company. It helps the company to manage
           internal project, client, and vendor management processes, in one seamless 
           online environment. The EPMS Translation Project Management System has 
           the following features and app components:
@@ -40,7 +40,7 @@ const Work = () => {
           </ListItem>
           <ListItem>2. Client Management System</ListItem>
           <ListItem>3. Vendor Management System.</ListItem>
-          <ListItem>4. Dashboard analytics</ListItem>
+          <ListItem>4. Admin Dashboard & Chart Js vs with analytics</ListItem>
           <ListItem>
             5. PDF Invoice, Quote and PO Generation capability.
           </ListItem>
