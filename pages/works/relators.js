@@ -60,9 +60,9 @@ const Work = () => {
         </List>
         <WorkImage src="/images/HomePage.png" alt="realestate" />
         <WorkImage src="/images/SingleProperty.png" alt="singleproperty" />
-        <WorkImage src="/images/Login.png" alt="Login" />
-        <WorkImage src="/images/our-properties-catalog.png" alt="properties" />
-        <WorkImage src="/images/Register.png" alt="register" />
+        <WorkImage src="/images/Login.png" alt="Login page" />
+        <WorkImage src="/images/our-properties-catalog.png" alt="properties page" />
+        <WorkImage src="/images/Register.png" alt="register page" />
       </Container>
     </Layout>
   )
