@@ -52,9 +52,9 @@ const Work = () => {
           <ListItem>
             <Meta>Tech Stacks</Meta>
             <span>
-            React js, React-router, React-bootstrap, React-redux, React-toastify, React-router-dom,
-            React-router-bootstrap, redux/toolkit,RTQuery, React-helmet, Django, Django-rest-framework, 
-            Django-cors-headers, PostgreSQL, JwT Web Tokens
+            React js, Django, Django-rest-framework, PostgreSQL, JwT Web Tokens, React-router, React-bootstrap, React-redux, React-toastify, React-router-dom,
+            React-router-bootstrap, redux/toolkit,RTQuery, React-helmet,  
+            Django-cors-headers, 
             </span>
           </ListItem>
         </List>

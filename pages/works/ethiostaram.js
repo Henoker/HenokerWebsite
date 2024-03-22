@@ -28,7 +28,7 @@ const Work = () => {
          quickly and easily. Vistors simply can enter the details of the
          project, such as the language pair and word count, and the
          incorporated quote calculator will generate an instant quote. 
-        The project is designed for my clients in United States.
+         The project is designed for my clients in United States.
         </P>
         <List ml={4} my={4}>
           <ListItem>
