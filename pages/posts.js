@@ -3,6 +3,7 @@ import { PostGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import thumbnailScamper from '../public/images/scamper.png'
+import thumbnailEPMS from '../public/images/epms.png'
 
 const Posts = () => (
   <Layout title="posts">
@@ -26,6 +27,13 @@ const Posts = () => (
               The Application of SCAMPER Technique in Web Development and Software Development
             </PostGridItem>
           </Section>
+          <PostGridItem
+              id="whyepms"
+              title="Revolutionizing Translation Project Management: A Dive into EPMS"
+              thumbnail={thumbnailEPMS}
+            >
+              Revolutionizing Translation Project Management: A Dive into EPMS Application
+          </PostGridItem>
         </SimpleGrid>
       </Section>
     </Container>
