@@ -2,6 +2,7 @@ import { Container, Badge, Heading } from '@chakra-ui/react'
 import { Title, WorkImage } from '../../components/work'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
+import { BioSection, BioYear } from '../../components/bio'
 
 const Whyepms = () => {
   return (
@@ -28,25 +29,47 @@ const Whyepms = () => {
         Before EPMS came into play, the scenario at our organization mirrored that of many others in the industry. 
         Clients, along with our in-house and freelance translators, struggled with a lack of standardization in 
         project management. Emails and Excel sheets were the primary tools, leading to a host of issues:
-        1. Fragmented Project Management: Without a centralized database, tracking projects was akin to 
+        <BioSection>
+            <BioYear>1</BioYear>
+            Fragmented Project Management: 
+            <Paragraph>Without a centralized database, tracking projects was akin to 
            navigating a maze blindfolded. Requests would get lost, additional information needed to be constantly 
            reattached, and project statuses were often unclear.
-        2. Vendor Management Woes: Identifying suitable translators for projects was akin to searching for a needle
+           </Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>2</BioYear>
+            Vendor Management Woes: <Paragraph>Identifying suitable translators for projects was akin to searching for a needle
            in a haystack. Contact information was scattered across spreadsheets, leading to missed deadlines and 
            lost opportunities. Furthermore, assessing translators skills and experience was challenging, often 
-           leading to mismatches between project requirements and translator capabilities.
-
-        3.Opaque Progress Tracking: Project and job progress resembled a black box, with little visibility for 
-        project managers and management. This lack of transparency made it difficult to intervene or make 
-        informed decisions in a timely manner.
-
-        4. Quality Assurance Quandaries: Quality assurance was reactive at best, relying on intuition rather 
+           leading to mismatches between project requirements and translator capabilities.</Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>3</BioYear>
+            Opaque Progress Tracking: <Paragraph>Project and job progress resembled a black box, with little visibility for 
+            project managers and management. This lack of transparency made it difficult to intervene or make 
+            informed decisions in a timely manner.</Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>4</BioYear>
+            Quality Assurance Quandaries: <Paragraph>Quality assurance was reactive at best, relying on intuition rather 
            than structured data. PMs had to rely on their gut feeling, leading to inconsistencies and 
-           uncertainties in project outcomes.
-
-        5. Record Management Nightmares: Managing accounts payable to vendors and invoice collections from 
+           uncertainties in project outcomes.</Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>5</BioYear>
+            Record Management Nightmares: <Paragraph>Managing accounts payable to vendors and invoice collections from 
            clients was a manual, error-prone process. Calculations had to be done externally, leaving room for 
-           errors and discrepancies.  
+           errors and discrepancies.</Paragraph>
+        </BioSection>
+        
+        
+
+        
+
+        
+
+          
         </Paragraph>
         <Paragraph>
         <WorkImage src="/images/CSSframeworks.jpg" alt="scamper" />

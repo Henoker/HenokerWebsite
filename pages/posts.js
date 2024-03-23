@@ -3,7 +3,7 @@ import { PostGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import thumbnailScamper from '../public/images/scamper.png'
-import thumbnailEPMS from '../public/images/epms.png'
+import thumbnailEPMS from '../public/images/EPMS.png'
 
 const Posts = () => (
   <Layout title="posts">
