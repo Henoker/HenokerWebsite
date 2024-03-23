@@ -1,8 +1,12 @@
-import { Container, Badge, Heading } from '@chakra-ui/react'
+import { Container, Badge, Heading, Text } from '@chakra-ui/react'
 import { Title, WorkImage } from '../../components/work'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
 import { BioSection, BioYear } from '../../components/bio'
+import {
+    ListItem,
+    UnorderedList,
+  } from '@chakra-ui/react'
 
 const Whyepms = () => {
   return (
@@ -62,90 +66,88 @@ const Whyepms = () => {
            clients was a manual, error-prone process. Calculations had to be done externally, leaving room for 
            errors and discrepancies.</Paragraph>
         </BioSection>
-        
-        
-
-        
-
-        
-
-          
         </Paragraph>
         <Paragraph>
         <WorkImage src="/images/CSSframeworks.jpg" alt="scamper" />
         <Heading>
-        Combine
+        The EPMS Solution
         </Heading>
-        Combining different technologies or approaches is a hallmark of innovation. If you have learned 
-        to build a frontend dashboard using a specific framework, consider combining it with a backend 
-        built on PHP, Django, or Express. This integration can open up a world of possibilities, from 
-        interactive user experiences to seamless data management. You can combine two Youtube tutorials or 
-        web and app development courses and create some new project for your portfolio that you can call your own. 
+        EPMS emerged as a comprehensive solution to these challenges, leveraging cutting-edge technology 
+        and a user-centric design approach:
+        <BioSection>
+            <BioYear>1</BioYear>
+            Streamlined Project Management: <Paragraph> EPMS provides a centralized platform for end-to-end 
+            project management, from client requirements to vendor assignments. With full CRUD functionality, 
+            managing translation and localization projects has never been easier.</Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>2</BioYear>
+            Efficient Vendor Management: <Paragraph> The platform offers a robust vendor management system, 
+            complete with detailed profiles highlighting translators skills, experience, and past performance 
+            ratings. This empowers project managers to make informed decisions when assigning tasks, ensuring
+            the right person for the job every time.</Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>3</BioYear>
+            Transparent Progress Tracking: <Paragraph> EPMS introduces transparency into project workflows, 
+            offering real-time progress tracking for both projects and individual tasks. Project managers and 
+            management alike can monitor project statuses, intervene when necessary, and make data-driven decisions
+            to ensure timely delivery.</Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>4</BioYear>
+            Standardized Quality Assurance: <Paragraph> Quality assurance is no longer a shot in the dark with 
+            EPMS. Historical quality data is stored in a structured fashion, enabling project managers to make
+            informed decisions based on past performance. This ensures consistent quality across projects and 
+            improves overall client satisfaction.</Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>5</BioYear>
+            Automated Record Management: <Paragraph> EPMS automates accounts payable calculations, invoice 
+            generation, and payment collections. Integration with financial data eliminates manual errors and 
+            streamlines the invoicing process, saving time and reducing administrative overhead.</Paragraph>
+        </BioSection>
+        <BioSection>
+            <BioYear>6</BioYear>
+            Insightful Analytics: <Paragraph> EPMS provides comprehensive analytics through interactive 
+            dashboards, offering insights into project revenue, costs, completed tasks, invoice and PO summaries,
+            vendor ratings, and more. This empowers management to make informed decisions, optimize processes, 
+            and drive business growth.</Paragraph>
+        </BioSection>
         </Paragraph>
         <Paragraph>
         <WorkImage src="/images/fullstack.jpg" alt="scamper" />
         <Heading>
-        Adapt
+        Development Journey
         </Heading>
-        Adaptation is crucial in a constantly changing tech environment. If a tutorial focuses on creating 
-        an unresponsive application, challenge yourself to adapt it into a responsive one. This not only 
-        enhances user experience but also showcases your versatility as a developer. Additionally, consider
-        adding new features or components to an existing project to elevate its functionality and appeal. For
-        example, if you were learning about a frontend project on how to make a landing page using any 
-        programming language or framework and the contact page do not have a backend functionality, you can add
-        on it a backend functionality using Google App Engine in order to store the contact message into Google
-        Spreadsheet.   
+        EPMS was conceived and developed to address these pressing needs within our organization. Leveraging a 
+        robust tech stack including Python with Django framework, Docker, Chart.js, WeasyPrint, and Django All 
+        Auth, we embarked on a journey to create a platform that would revolutionize translation project 
+        management.
+        The features of EPMS were meticulously crafted to address specific pain points:
+        <UnorderedList>
+        <ListItem><Text as='b'>Translation and Localization Project Management capability</Text> With full CRUD functionality, project management becomes seamless and efficient.</ListItem>
+        <ListItem><Text as='b'>Client Management app</Text>  Empowering users with full CRUD capability ensures effective client relationship management.</ListItem>
+        <ListItem><Text as='b'>Vendor(Translators) Management app</Text> Detailed profiles and CRUD functionality enable accurate vendor selection and management.</ListItem>
+        <ListItem><Text as='b'>Dashboard analytics using Chart.js</Text> Real-time insights provide a bird&rsquo;s eye view of project statuses and performance metrics.</ListItem>
+        <ListItem><Text as='b'>PDF Invoice generation capability</Text> WeasyPrint integration automates invoice generation, streamlining financial processes.</ListItem>
+        <ListItem><Text as='b'>PDF PO generation capability</Text> WeasyPrint facilitates the creation of purchase orders, enhancing vendor management.</ListItem>
+        <ListItem><Text as='b'>Vendor Job Management app</Text> CRUD functionality ensures efficient assignment and tracking of translation tasks.</ListItem>
+        <ListItem><Text as='b'>Client Order Management app</Text> Seamless order processing is achieved through intuitive CRUD capabilities.</ListItem>
+        <ListItem><Text as='b'>Rating system for vendors</Text>  Industry-specific criteria ensure accurate assessment and selection of translators.</ListItem>
+        </UnorderedList>
         </Paragraph>
         <Paragraph>
         <WorkImage src="/images/Responsive.jpg" alt="scamper" />
         <Heading>
-        Modify
+        Conclusion
         </Heading>
-        Modifying elements of a project allows you to put your unique stamp on it. This can range from 
-        altering color schemes and fonts to restructuring the code for better efficiency. Do not shy away 
-        from making changes that align with your vision and goals for the project. Here you can change a 
-        website that is made with css flex approach into grid one. You can change a website made with semantic
-        HTML into non-semantic one or vice versa.   
-        </Paragraph>
-        <Paragraph>
-        <WorkImage src="/images/brandColors.jpg" alt="scamper" />
-        <Heading>
-        Put to Another Use
-        </Heading>
-        Thinking outside the box is a hallmark of successful developers. If you have learned to create a 
-        project for a specific purpose, consider how it could be repurposed. For example, a tool designed
-        for general invoice generation could be adapted for the creation of purchase orders. This not only 
-        demonstrates your resourcefulness but also expands the utility of your creations. For example there 
-        is a diabetis tool website which is designed using HTML, CSS and JavaScript, You can use the 
-        same javaScript logic to make a rating tool for another purposes.      
-        </Paragraph>
-        <Paragraph>
-        <WorkImage src="/images/poinvoice.jpg" alt="scamper" />
-        <Heading>
-        Eliminate
-        </Heading>
-        Simplicity and efficiency are often at the heart of great software. Applying the Eliminate principle
-        involves stripping away unnecessary features or complexities. Streamlining your project can lead to 
-        faster load times, better user experiences, and cleaner code. You can create a new look for your 
-        website by eliminating unnecessary features, divs or components.  
-        </Paragraph>
-        <Paragraph>
-        <WorkImage src="/images/UiTree.jpg" alt="scamper" />
-        <Heading>
-        Reverse
-        </Heading>
-        Turning things on their head can lead to fresh perspectives. Rearrange the order of components or
-        redesign layouts to breathe new life into a project. This can lead to more intuitive navigation and
-        improved user engagement. You can arrange the website cascading flow in new a new manner. This will 
-        gives you a new fresh look in your design. 
-        </Paragraph>
-        <Paragraph>
-        By integrating SCAMPER into your learning process and project development, you unlock a world of 
-        creative potential. Embrace each element of this technique to not only learn new programming 
-        languages but also to craft unique, innovative projects that set you apart in the world of web 
-        and software development. Challenge conventions, adapt to change, and let your creativity flourish. 
-        The possibilities are boundless. Happy coding! 
-        </Paragraph>
+        In conclusion, EPMS has revolutionized translation project management, addressing longstanding challenges
+        and inefficiencies with innovative solutions. By providing a centralized platform, transparent workflows,
+        and insightful analytics, EPMS has empowered organizations to streamline their operations, improve 
+        quality, and enhance client satisfaction. As we continue to embrace digital transformation, EPMS stands
+        as a shining example of how technology can drive positive change in the language services industry.   
+        </Paragraph>     
         
       </Container>
     </Layout>
