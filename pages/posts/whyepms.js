@@ -1,11 +1,11 @@
-import { Container, Badge, Heading, Text } from '@chakra-ui/react'
+import { Container, Badge, Heading, Text} from '@chakra-ui/react'
 import { Title, WorkImage } from '../../components/work'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
-import { BioSection, BioYear } from '../../components/bio'
 import {
     ListItem,
     UnorderedList,
+    OrderedList,
   } from '@chakra-ui/react'
 
 const Whyepms = () => {
@@ -33,39 +33,34 @@ const Whyepms = () => {
         Before EPMS came into play, the scenario at our organization mirrored that of many others in the industry. 
         Clients, along with our in-house and freelance translators, struggled with a lack of standardization in 
         project management. Emails and Excel sheets were the primary tools, leading to a host of issues:
-        <BioSection>
-            <BioYear>1</BioYear>
-            Fragmented Project Management: 
-            <Paragraph>Without a centralized database, tracking projects was akin to 
+        <OrderedList>
+            <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Fragmented Project Management:</Text> Without a centralized database, tracking projects was akin to 
            navigating a maze blindfolded. Requests would get lost, additional information needed to be constantly 
            reattached, and project statuses were often unclear.
-           </Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>2</BioYear>
-            Vendor Management Woes: <Paragraph>Identifying suitable translators for projects was akin to searching for a needle
+        </ListItem>
+        <ListItem>
+        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Vendor Management Woes:</Text> Identifying suitable translators for projects was akin to searching for a needle
            in a haystack. Contact information was scattered across spreadsheets, leading to missed deadlines and 
            lost opportunities. Furthermore, assessing translators skills and experience was challenging, often 
-           leading to mismatches between project requirements and translator capabilities.</Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>3</BioYear>
-            Opaque Progress Tracking: <Paragraph>Project and job progress resembled a black box, with little visibility for 
+           leading to mismatches between project requirements and translator capabilities.
+        </ListItem>
+        <ListItem>
+        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Opaque Progress Tracking:</Text> Project and job progress resembled a black box, with little visibility for 
             project managers and management. This lack of transparency made it difficult to intervene or make 
-            informed decisions in a timely manner.</Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>4</BioYear>
-            Quality Assurance Quandaries: <Paragraph>Quality assurance was reactive at best, relying on intuition rather 
+            informed decisions in a timely manner.
+        </ListItem>
+        <ListItem>
+        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Quality Assurance Quandaries: </Text> Quality assurance was reactive at best, relying on intuition rather 
            than structured data. PMs had to rely on their gut feeling, leading to inconsistencies and 
-           uncertainties in project outcomes.</Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>5</BioYear>
-            Record Management Nightmares: <Paragraph>Managing accounts payable to vendors and invoice collections from 
+           uncertainties in project outcomes.
+        </ListItem>
+        <ListItem>
+        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Record Management Nightmares: </Text> Managing accounts payable to vendors and invoice collections from 
            clients was a manual, error-prone process. Calculations had to be done externally, leaving room for 
-           errors and discrepancies.</Paragraph>
-        </BioSection>
+           errors and discrepancies.
+        </ListItem>
+        </OrderedList>
         </Paragraph>
         <Paragraph>
         <WorkImage src="/images/CSSframeworks.jpg" alt="scamper" />
@@ -74,46 +69,42 @@ const Whyepms = () => {
         </Heading>
         EPMS emerged as a comprehensive solution to these challenges, leveraging cutting-edge technology 
         and a user-centric design approach:
-        <BioSection>
-            <BioYear>1</BioYear>
-            Streamlined Project Management: <Paragraph> EPMS provides a centralized platform for end-to-end 
+        <OrderedList>
+          <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Streamlined Project Management:</Text> EPMS provides a centralized platform for end-to-end 
             project management, from client requirements to vendor assignments. With full CRUD functionality, 
-            managing translation and localization projects has never been easier.</Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>2</BioYear>
-            Efficient Vendor Management: <Paragraph> The platform offers a robust vendor management system, 
+            managing translation and localization projects has never been easier.
+          </ListItem>
+        <ListItem>
+        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Efficient Vendor Management:</Text> The platform offers a robust vendor management system, 
             complete with detailed profiles highlighting translators skills, experience, and past performance 
             ratings. This empowers project managers to make informed decisions when assigning tasks, ensuring
-            the right person for the job every time.</Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>3</BioYear>
-            Transparent Progress Tracking: <Paragraph> EPMS introduces transparency into project workflows, 
+            the right person for the job every time.
+        </ListItem>
+        <ListItem>
+        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Transparent Progress Tracking: </Text> EPMS introduces transparency into project workflows, 
             offering real-time progress tracking for both projects and individual tasks. Project managers and 
             management alike can monitor project statuses, intervene when necessary, and make data-driven decisions
-            to ensure timely delivery.</Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>4</BioYear>
-            Standardized Quality Assurance: <Paragraph> Quality assurance is no longer a shot in the dark with 
+            to ensure timely delivery.
+        </ListItem>
+        <ListItem>
+        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Standardized Quality Assurance: </Text> Quality assurance is no longer a shot in the dark with 
             EPMS. Historical quality data is stored in a structured fashion, enabling project managers to make
             informed decisions based on past performance. This ensures consistent quality across projects and 
-            improves overall client satisfaction.</Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>5</BioYear>
-            Automated Record Management: <Paragraph> EPMS automates accounts payable calculations, invoice 
+            improves overall client satisfaction.
+        </ListItem>
+        <ListItem>
+            <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Automated Record Management:</Text> EPMS automates accounts payable calculations, invoice 
             generation, and payment collections. Integration with financial data eliminates manual errors and 
-            streamlines the invoicing process, saving time and reducing administrative overhead.</Paragraph>
-        </BioSection>
-        <BioSection>
-            <BioYear>6</BioYear>
-            Insightful Analytics: <Paragraph> EPMS provides comprehensive analytics through interactive 
+            streamlines the invoicing process, saving time and reducing administrative overhead.
+        </ListItem>
+        <ListItem>
+        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Insightful Analytics: </Text> EPMS provides comprehensive analytics through interactive 
             dashboards, offering insights into project revenue, costs, completed tasks, invoice and PO summaries,
             vendor ratings, and more. This empowers management to make informed decisions, optimize processes, 
-            and drive business growth.</Paragraph>
-        </BioSection>
+            and drive business growth.
+        </ListItem>
+        </OrderedList>
         </Paragraph>
         <Paragraph>
         <WorkImage src="/images/fullstack.jpg" alt="scamper" />
