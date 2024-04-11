@@ -34,6 +34,13 @@ const Posts = () => (
             >
               Revolutionizing Translation Project Management: A Dive into EPMS Application
           </PostGridItem>
+          <PostGridItem
+              id="tale"
+              title="The Tale of Two Powerful Programming Languages: Python and JavaScript"
+              thumbnail={thumbnailEPMS}
+            >
+              The Tale of Two Powerful Programming Languages: Python and JavaScript
+          </PostGridItem>
         </SimpleGrid>
       </Section>
     </Container>
