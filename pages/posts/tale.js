@@ -27,12 +27,9 @@ const Tale = () => {
         that make them indispensable tools for developers across the globe. Let&rsquo;s delve into the comparison
         and contrast of these two powerhouses, exploring their syntax, features, and usage scenarios.
         </Paragraph>
-        <Paragraph>
-        <Heading>
-        Dynamic Typing
-        </Heading>
+        <Paragraph p={4}>
         <OrderedList>
-            <ListItem>
+        <ListItem>
           <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
           Dynamic Typing:</Text>  Both Python and JavaScript embrace dynamic typing, allowing variables to be 
           assigned without specifying their types explicitly. This flexibility streamlines the coding process 
@@ -43,7 +40,7 @@ const Tale = () => {
 x = 5   
 x = "Hello"`
         }
-        language='javascript'
+        language='python'
         showLineNumbers='true'
         wrapLines 
         theme={dracula} 
@@ -56,81 +53,101 @@ x = "Hello"`
 let x = 5;   
 x = "Hello";`
         }
+        language='javascript'
+        showLineNumbers='true'
+        wrapLines 
+        theme={dracula} 
+        /> 
+        <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          String Manipulation:</Text>  Strings are fundamental data types in both languages, supporting various 
+          operations such as concatenation and interpolation. Here&rsquo;s an example demonstrating string 
+          concatenation in Python and JavaScript:
+        </ListItem>
+        <CopyBlock 
+        text={`# Python    
+message = "Hello, " + "world!"`
+        }
+        language='python'
+        showLineNumbers='true'
+        wrapLines 
+        theme={dracula} 
+        /> 
+
+        <Divider p={4} />
+
+        <CopyBlock 
+        text={`# JavaScript    
+let message = "Hello, " + "world!";`
+        }
         language='python'
         showLineNumbers='true'
         wrapLines 
         theme={dracula} 
         /> 
         <ListItem>
-        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Vendor Management Woes:</Text> Identifying suitable translators for projects was akin to searching for a needle
-           in a haystack. Contact information was scattered across spreadsheets, leading to missed deadlines and 
-           lost opportunities. Furthermore, assessing translators skills and experience was challenging, often 
-           leading to mismatches between project requirements and translator capabilities.
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Object Declaration and Access:</Text>  Objects play a crucial role in both Python and JavaScript,
+          serving as containers for key-value pairs. They are declared using curly braces {} and accessed using 
+          dot notation. Here&rsquo;s how it&rsquo;s done in both languages:
         </ListItem>
-        <ListItem>
-        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Opaque Progress Tracking:</Text> Project and job progress resembled a black box, with little visibility for 
-            project managers and management. This lack of transparency made it difficult to intervene or make 
-            informed decisions in a timely manner.
+        <CopyBlock 
+        text={`# Python    
+person = {'name': 'John', 'age': 30}
+print(person['name'])  # Output: John`
+        }
+        language='python'
+        showLineNumbers='true'
+        wrapLines 
+        theme={dracula} 
+        /> 
+
+        <Divider p={4} />
+
+        <CopyBlock 
+        text={`# JavaScript    
+const person = { name: 'John', age: 30 };
+console.log(person.name); // Output: John`
+        }
+        language='javascript'
+        showLineNumbers='true'
+        wrapLines 
+        theme={dracula} 
+        /> 
+                <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Function Definitions:</Text>  Functions are vital building blocks in programming, and both Python and 
+          JavaScript offer various ways to define them. Let&rsquo;s compare the syntax of defining a simple 
+          function in both languages:
         </ListItem>
-        <ListItem>
-        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Quality Assurance Quandaries: </Text> Quality assurance was reactive at best, relying on intuition rather 
-           than structured data. PMs had to rely on their gut feeling, leading to inconsistencies and 
-           uncertainties in project outcomes.
-        </ListItem>
-        <ListItem>
-        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Record Management Nightmares: </Text> Managing accounts payable to vendors and invoice collections from 
-           clients was a manual, error-prone process. Calculations had to be done externally, leaving room for 
-           errors and discrepancies.
-        </ListItem>
+        <CopyBlock 
+text={`# Python    
+def greet(name):
+    return "Hello, " + name`
+        }
+        language='python'
+        showLineNumbers='true'
+        wrapLines 
+        theme={dracula} 
+        /> 
+
+        <Divider p={4} />
+
+        <CopyBlock 
+        text={`# JavaScript    
+function greet(name) {
+    return "Hello, " + name;
+}`
+        }
+        language='javascript'
+        showLineNumbers='true'
+        wrapLines 
+        theme={dracula} 
+        /> 
         </OrderedList>
         </Paragraph>
-        <Paragraph>
-        <WorkImage src="/images/CSSframeworks.jpg" alt="scamper" />
-        <Heading>
-        The EPMS Solution
-        </Heading>
-        EPMS emerged as a comprehensive solution to these challenges, leveraging cutting-edge technology 
-        and a user-centric design approach:
-        <OrderedList>
-          <ListItem>
-          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Streamlined Project Management:</Text> EPMS provides a centralized platform for end-to-end 
-            project management, from client requirements to vendor assignments. With full CRUD functionality, 
-            managing translation and localization projects has never been easier.
-          </ListItem>
-        <ListItem>
-        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Efficient Vendor Management:</Text> The platform offers a robust vendor management system, 
-            complete with detailed profiles highlighting translators skills, experience, and past performance 
-            ratings. This empowers project managers to make informed decisions when assigning tasks, ensuring
-            the right person for the job every time.
-        </ListItem>
-        <ListItem>
-        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Transparent Progress Tracking: </Text> EPMS introduces transparency into project workflows, 
-            offering real-time progress tracking for both projects and individual tasks. Project managers and 
-            management alike can monitor project statuses, intervene when necessary, and make data-driven decisions
-            to ensure timely delivery.
-        </ListItem>
-        <ListItem>
-        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Standardized Quality Assurance: </Text> Quality assurance is no longer a shot in the dark with 
-            EPMS. Historical quality data is stored in a structured fashion, enabling project managers to make
-            informed decisions based on past performance. This ensures consistent quality across projects and 
-            improves overall client satisfaction.
-        </ListItem>
-        <ListItem>
-            <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Automated Record Management:</Text> EPMS automates accounts payable calculations, invoice 
-            generation, and payment collections. Integration with financial data eliminates manual errors and 
-            streamlines the invoicing process, saving time and reducing administrative overhead.
-        </ListItem>
-        <ListItem>
-        <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold">Insightful Analytics: </Text> EPMS provides comprehensive analytics through interactive 
-            dashboards, offering insights into project revenue, costs, completed tasks, invoice and PO summaries,
-            vendor ratings, and more. This empowers management to make informed decisions, optimize processes, 
-            and drive business growth.
-        </ListItem>
-        </OrderedList>
-        </Paragraph>
-        <Paragraph>
-        <WorkImage src="/images/fullstack.jpg" alt="scamper" />
-        <Heading>
+        <Paragraph p={4} >
+        <Heading p={3}>
         Development Journey
         </Heading>
         EPMS was conceived and developed to address these pressing needs within our organization. Leveraging a 
