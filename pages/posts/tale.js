@@ -4,7 +4,6 @@ import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
 import {
     ListItem,
-    UnorderedList,
     OrderedList,
   } from '@chakra-ui/react'
 import { CopyBlock,dracula } from "react-code-blocks";
@@ -144,39 +143,52 @@ function greet(name) {
         wrapLines 
         theme={dracula} 
         /> 
+          <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Variable Naming Conventions:</Text>  While Python typically follows the snake_case convention for 
+          variable and function names, JavaScript prefers camelCase. This difference in naming conventions is 
+          essential for maintaining code readability and consistency.
+        </ListItem>
+        <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Control Flow:</Text>  WBoth languages support similar control flow structures, including loops and 
+          conditionals. For example, the while loop behaves similarly in both Python and JavaScript, executing 
+          its body until the condition becomes false.
+        </ListItem>
+        <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Array Iteration:</Text> JavaScript provides handy methods like forEach() and map() for iterating over 
+          arrays, akin to Python&rsquo;s list comprehensions. These methods simplify the process of working with 
+          arrays and make code more expressive.
+        </ListItem>
+        <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Keyword this vs. self:</Text> Both languages use a keyword to reference the current object within a 
+          class or method. In Python, it&rsquo;s self, while in JavaScript, it&rsquo;s this. Despite the 
+          difference in syntax, their functionality remains similar..
+        </ListItem>
+        <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Superclass Invocation:</Text> JavaScript introduces the super() function for calling methods from the 
+          superclass within a subclass. While similar to Python&rsquo;s super() method, JavaScript&rsquo;s 
+          implementation is more implicit in its behavior.
+        </ListItem>
+        <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Classes and Inheritance:</Text> JavaScript classes share many similarities with Python classes, allowing for
+          the creation of objects with methods and attributes. However, JavaScript classes can only inherit from a 
+          single superclass, unlike Python&rsquo;s multiple inheritance capability.
+        </ListItem>
         </OrderedList>
         </Paragraph>
-        <Paragraph p={4} >
-        <Heading p={3}>
-        Development Journey
-        </Heading>
-        EPMS was conceived and developed to address these pressing needs within our organization. Leveraging a 
-        robust tech stack including Python with Django framework, Docker, Chart.js, WeasyPrint, and Django All 
-        Auth, we embarked on a journey to create a platform that would revolutionize translation project 
-        management.
-        The features of EPMS were meticulously crafted to address specific pain points:
-        <UnorderedList>
-        <ListItem><Text as='b'>Translation and Localization Project Management capability</Text> With full CRUD functionality, project management becomes seamless and efficient.</ListItem>
-        <ListItem><Text as='b'>Client Management app</Text>  Empowering users with full CRUD capability ensures effective client relationship management.</ListItem>
-        <ListItem><Text as='b'>Vendor(Translators) Management app</Text> Detailed profiles and CRUD functionality enable accurate vendor selection and management.</ListItem>
-        <ListItem><Text as='b'>Dashboard analytics using Chart.js</Text> Real-time insights provide a bird&rsquo;s eye view of project statuses and performance metrics.</ListItem>
-        <ListItem><Text as='b'>PDF Invoice generation capability</Text> WeasyPrint integration automates invoice generation, streamlining financial processes.</ListItem>
-        <ListItem><Text as='b'>PDF PO generation capability</Text> WeasyPrint facilitates the creation of purchase orders, enhancing vendor management.</ListItem>
-        <ListItem><Text as='b'>Vendor Job Management app</Text> CRUD functionality ensures efficient assignment and tracking of translation tasks.</ListItem>
-        <ListItem><Text as='b'>Client Order Management app</Text> Seamless order processing is achieved through intuitive CRUD capabilities.</ListItem>
-        <ListItem><Text as='b'>Rating system for vendors</Text>  Industry-specific criteria ensure accurate assessment and selection of translators.</ListItem>
-        </UnorderedList>
-        </Paragraph>
         <Paragraph>
-        <WorkImage src="/images/Responsive.jpg" alt="scamper" />
         <Heading>
         Conclusion
         </Heading>
-        In conclusion, EPMS has revolutionized translation project management, addressing longstanding challenges
-        and inefficiencies with innovative solutions. By providing a centralized platform, transparent workflows,
-        and insightful analytics, EPMS has empowered organizations to streamline their operations, improve 
-        quality, and enhance client satisfaction. As we continue to embrace digital transformation, EPMS stands
-        as a shining example of how technology can drive positive change in the language services industry.   
+        In conclusion, while Python and JavaScript have their own distinct syntax and features, they share many 
+        similarities and serve as powerful tools for solving a wide range of programming challenges. Whether 
+        you&rsquo;re building web applications, data science projects, or anything in between, mastering these 
+        two languages opens up a world of possibilities in the realm of software development.   
         </Paragraph>     
         
       </Container>
