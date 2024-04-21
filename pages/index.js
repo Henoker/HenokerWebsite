@@ -68,8 +68,9 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            I am a Full Stack Software and Web Developer. I specialize in Python
-            Django, React, Postgresql MongoDB, Express, Next js, and Node Js
+            I am a Full Stack Software and Web Developer. I specialize in Python and
+            Javascript programming and have worked with a variety of frameworks like
+            Django, React JS, Postgresql MongoDB, Express, Next js, and Node Js
             Projects. In my spare time I enjoy DIY, gaming and building my own
             projects. My preferred tech tools are Python, react/next.js and
             docker.
@@ -132,6 +133,14 @@ const Page = () => {
           <BioSection>
             <BioYear>2023</BioYear>
             Completed Meta&apos;s React Basics Professional certificate course
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Completed Codio&apos;s Advanced Django: Advanced Django Rest Framework
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Completed Meta&apos;s Programming with JavaScript Professional certificate course
           </BioSection>
         </Section>
         <Section delay={0.3}>
