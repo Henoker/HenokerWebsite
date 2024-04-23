@@ -4,6 +4,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import thumbnailScamper from '../public/images/scamper.png'
 import thumbnailEPMS from '../public/images/EPMS.png'
+import thumbnailJSP from '../public/images/JSvsPython.png'
 
 const Posts = () => (
   <Layout title="posts">
@@ -37,7 +38,7 @@ const Posts = () => (
           <PostGridItem
               id="tale"
               title="The Tale of Two Powerful Programming Languages: Python and JavaScript"
-              thumbnail={thumbnailEPMS}
+              thumbnail={thumbnailJSP}
             >
               The Tale of Two Powerful Programming Languages: Python and JavaScript
           </PostGridItem>

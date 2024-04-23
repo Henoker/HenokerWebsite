@@ -68,12 +68,14 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            I am a Full Stack Software and Web Developer. I specialize in Python and
-            Javascript programming and have worked with a variety of frameworks like
-            Django, React JS, Postgresql MongoDB, Express, Next js, and Node Js
-            Projects. In my spare time I enjoy DIY, gaming and building my own
-            projects. My preferred tech tools are Python, react/next.js and
-            docker.
+          Motivated and adaptable full-stack developer with a diverse background in education, finance, and 
+          localization seeking to leverage transferable skills gained from teaching, financial analysis, and 
+          freelance work to excel in the tech industry. I am a Full Stack Software and Web Developer specializing
+           in Python and Javascript programming. I have hands-on experience with a variety of frameworks 
+           including Django, React JS, Next.js, and Express, as well as databases like PostgreSQL and MongoDB. 
+           Eager to contribute to innovative projects and collaborate with dynamic teams, I am particularly 
+           drawn to opportunities that allow me to utilize my preferred tech tools, Python, React/Next.js, and 
+           Docker. In my spare time, I enjoy DIY projects, gaming, and building my own innovative tech projects.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
