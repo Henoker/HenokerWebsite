@@ -144,6 +144,14 @@ const Page = () => {
             <BioYear>2024</BioYear>
             Completed Meta&apos;s Programming with JavaScript Professional certificate course
           </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Completed IBM&apos;s Developing Front-End Apps with React
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Completed IBM&apos;s Introduction to Cloud Computing
+          </BioSection>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
