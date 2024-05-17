@@ -151,7 +151,7 @@ function greet(name) {
         </ListItem>
         <ListItem>
           <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
-          Control Flow:</Text>  WBoth languages support similar control flow structures, including loops and 
+          Control Flow:</Text> Both languages support similar control flow structures, including loops and 
           conditionals. For example, the while loop behaves similarly in both Python and JavaScript, executing 
           its body until the condition becomes false.
         </ListItem>

@@ -73,9 +73,7 @@ const Page = () => {
           freelance work to excel in the tech industry. I am a Full Stack Software and Web Developer specializing
            in Python and Javascript programming. I have hands-on experience with a variety of frameworks 
            including Django, React JS, Next.js, and Express, as well as databases like PostgreSQL and MongoDB. 
-           Eager to contribute to innovative projects and collaborate with dynamic teams, I am particularly 
-           drawn to opportunities that allow me to utilize my preferred tech tools, Python, React/Next.js, and 
-           Docker. In my spare time, I enjoy DIY projects, gaming, and building my own innovative tech projects.
+           Eager to contribute to innovative projects and collaborate with dynamic teams. In my spare time, I enjoy DIY projects, gaming, and building my own innovative tech projects.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -154,6 +152,19 @@ const Page = () => {
           </BioSection>
         </Section>
         <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+            Skills
+          </Heading>
+          <Paragraph>
+          <Link href="https://github.com/EddieHubCommunity">
+              Backend Skills
+          </Link>{' '} Python, Django, Node js, Express, PostgreSQL, MySQL, SQLite, MongoDB, RESTful APIs,  JWT (JSON Web Tokens) or OAuth
+          </Paragraph>
+          <Paragraph>
+          <Link href="https://github.com/EddieHubCommunity">
+              Frontend Skills
+          </Link>{' '} Javascript, React Js, Next js, HTML5, CSS3, Redux, Testing and Debuging, Git, Github, Heroku, Netlify, Vercel, AWS, Azure, Digital Ocean, Google Cloud, Firebase, and more
+          </Paragraph>
           <Heading as="h3" variant="section-title">
             Hobby
           </Heading>
