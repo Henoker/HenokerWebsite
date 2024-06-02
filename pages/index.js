@@ -144,24 +144,32 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
+            Completed IBM&apos;s Introduction to Cloud Computing
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
             Completed IBM&apos;s Developing Front-End Apps with React
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Completed IBM&apos;s Introduction to Cloud Computing
-          </BioSection>
+            Completed IBM&apos;s Developing Back-End Apps with Node.js and Express
+          </BioSection>        
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Completed Meta&apos;s Advanvced React Js Course
+          </BioSection>     
         </Section>
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
             Skills
           </Heading>
           <Paragraph>
-          <Link href="https://github.com/EddieHubCommunity">
+          <Link>
               Backend Skills
           </Link>{' '} Python, Django, Node js, Express, PostgreSQL, MySQL, SQLite, MongoDB, RESTful APIs,  JWT (JSON Web Tokens) or OAuth
           </Paragraph>
           <Paragraph>
-          <Link href="https://github.com/EddieHubCommunity">
+          <Link>
               Frontend Skills
           </Link>{' '} Javascript, React Js, Next js, HTML5, CSS3, Redux, Testing and Debuging, Git, Github, Heroku, Netlify, Vercel, AWS, Azure, Digital Ocean, Google Cloud, Firebase, and more
           </Paragraph>
