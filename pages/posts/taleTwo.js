@@ -9,7 +9,7 @@ import {
 import { CopyBlock,dracula } from "react-code-blocks";
 import { Divider } from '@chakra-ui/react'
 
-const Tale = () => {
+const TaleTwo = () => {
   return (
     <Layout title="scamper">
       <Container>
@@ -19,7 +19,7 @@ const Tale = () => {
         <Heading>
         The Tale of Two Powerful Programming Languages: Python and JavaScript
         </Heading>
-        <WorkImage src="/images/scamper.png" alt="taleone" />
+        <WorkImage src="/images/scamper.png" alt="scamper" />
         <Paragraph> 
         In the vast landscape of programming languages, Python and JavaScript stand out as two of the most 
         influential and widely-used languages. Each has its own strengths, weaknesses, and unique features 
@@ -36,8 +36,8 @@ const Tale = () => {
         </ListItem>
         <CopyBlock 
         text={`# Python    
-               x = 5   
-               x = "Hello"`
+x = 5   
+x = "Hello"`
         }
         language='python'
         showLineNumbers='true'
@@ -196,4 +196,4 @@ function greet(name) {
   )
 }
 
-export default Tale
+export default TaleTwo

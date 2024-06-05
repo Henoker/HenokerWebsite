@@ -42,6 +42,13 @@ const Posts = () => (
             >
               The Tale of Two Powerful Programming Languages: Python and JavaScript
           </PostGridItem>
+          <PostGridItem
+              id="taleTwo"
+              title="The Tale of Two Powerful Programming Languages: Python and JavaScript"
+              thumbnail={thumbnailJSP}
+            >
+              The Tale of Two Powerful Programming Languages: Python and JavaScript Part Two
+          </PostGridItem>
         </SimpleGrid>
       </Section>
     </Container>
