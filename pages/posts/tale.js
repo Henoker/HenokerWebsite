@@ -11,7 +11,7 @@ import { Divider } from '@chakra-ui/react'
 
 const Tale = () => {
   return (
-    <Layout title="scamper">
+    <Layout title="The Tale of Two Powerful Programming Languages: Python and JavaScript">
       <Container>
         <Title>
           Tale <Badge>2024</Badge>
