@@ -37,7 +37,7 @@ const Work = () => {
             <span>Python Tkinter</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/geopolitical.png" alt="auction" />
+        <WorkImage src="/images/geopolitics.png" alt="geopolitics" />
       </Container>
     </Layout>
   )

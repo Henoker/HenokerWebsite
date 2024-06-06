@@ -6,7 +6,7 @@ import thumbnailEPMS from '../public/images/EPMS.png'
 import thumbnailephie from '../public/images/EPHIE.png'
 import thumbnailethio from '../public/images/ethioservices.png'
 import thumbnailProperty from '../public/images/our-properties-catalog.png'
-import thumbnailgeo from '../public/images/geopolitical.png'
+import thumbnailgeo from '../public/images/geopolitics.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
