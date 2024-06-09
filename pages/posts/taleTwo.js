@@ -116,10 +116,114 @@ myArray.reverse();  // [3, 2, 1]
         wrapLines 
         theme={dracula} 
         /> 
-        
+         <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Tuples (Python) vs. Arrays (JavaScript):</Text>  In Python Tuples An ordered, immutable collection of items.
+          JavaScript does not have a direct equivalent to Python&apos;s tuples, but arrays can be treated as immutable
+          by avoiding methods that modify them in place or by using methods that return new arrays.
+        </ListItem>
+        <CopyBlock 
+text={`# Python    
+       my_tuple = (1, 2, 3)`
+        }
+        language='python'
+        showLineNumbers='false'
+        wrapLines 
+        theme={dracula} 
+        /> 
+        <Divider p={4} />
+        <CopyBlock 
+text={`#JavaScript    
+const myArray = [1, 2, 3];
+// myArray[0] = 10  // Possible but to treat as immutable, avoid such assignments
+
+const newArray = myArray.concat([4]);  // [1, 2, 3, 4]
+`
+        }
+        language='javascript'
+        showLineNumbers='false'
+        wrapLines 
+        theme={dracula} 
+        /> 
+        <ListItem>
+          <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
+          Dictionaries (Python) vs. Objects (JavaScript):</Text>  In Python Dictionaries An unordered collection of key-value pairs.
+          Also, In JavaScript objects are also An unordered collection of key-value pairs. Here are some examples of
+          each:
+        </ListItem>
+        <CopyBlock 
+text={`# Python    
+my_dict = {'key1': 'value1', 'key2': 'value2'}`
+        }
+        language='python'
+        showLineNumbers='false'
+        wrapLines 
+        theme={dracula} 
+        /> 
+        <Divider p={4} />
+        <CopyBlock 
+text={`#JavaScript    
+let myObject = {'key1': 'value1', 'key2': 'value2'}`
+        }
+        language='javascript'
+        showLineNumbers='false'
+        wrapLines 
+        theme={dracula} 
+        /> 
+        <Divider p={4} />
+        <Text fontSize="2xl" fontWeight="extrabold">Common Dictionary Methods in Python:</Text>
+        <UnorderedList>
+        <ListItem><Text as='b'>get()</Text> :Returns the value for a key if it exists.</ListItem>
+        <ListItem><Text as='b'>keys()</Text> :Returns a view object of the dictionary&apos;s keys.</ListItem>
+        <ListItem><Text as='b'>values()</Text> :Returns a view object of the dictionary&apos;s values.</ListItem>
+        <ListItem><Text as='b'>items()</Text> :Returns a view object of the dictionary&apos;s key-value pairs.</ListItem>
+        <ListItem><Text as='b'>update()</Text> :Updates the dictionary with the key-value pairs from another dictionary or iterable.</ListItem>        </UnorderedList>
+        <Divider p={4} />
+        <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
+        <CopyBlock 
+text={`my_dict = {'key1': 'value1', 'key2': 'value2'}
+my_dict['key3'] = 'value3'  # {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+value = my_dict.get('key1')  # 'value1'
+keys = my_dict.keys()  # dict_keys(['key1', 'key2', 'key3'])
+values = my_dict.values()  # dict_values(['value1', 'value2', 'value3'])
+items = my_dict.items()  # dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3')])
+my_dict.update({'key4': 'value4'})  # {'key1': 'value1', 'key2': 'value2', 'key3': 'value3', 'key4': 'value4'}
+
+`
+        }
+        language='python'
+        showLineNumbers='false'
+        wrapLines 
+        theme={dracula} 
+        /> 
+         <Divider p={4} />
+        <Text fontSize="2xl" fontWeight="extrabold">Common object Methods in Javascript:</Text>
+        <UnorderedList>
+        <ListItem><Text as='b'>Object.keys()</Text> :Returns an array of a given object&apos;s keys.</ListItem>
+        <ListItem><Text as='b'>Object.values()</Text> :Returns an array of a given object&apos;s values.</ListItem>
+        <ListItem><Text as='b'>Object.entries()</Text> :Returns an array of a given object&apos;s key-value pairs.</ListItem>
+        <ListItem><Text as='b'>Object.assign()</Text> :Copies the values of all enumerable own properties from one or more source objects to a target object.</ListItem>        </UnorderedList>
+        <Divider p={4} />
+        <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
+        <CopyBlock 
+text={`let myObject = {'key1': 'value1', 'key2': 'value2'};
+myObject['key3'] = 'value3';  // {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+let value = myObject['key1'];  // 'value1'
+let keys = Object.keys(myObject);  // ['key1', 'key2', 'key3']
+let values = Object.values(myObject);  // ['value1', 'value2', 'value3']
+let entries = Object.entries(myObject);  // [['key1', 'value1'], ['key2', 'value2'], ['key3', 'value3']]
+Object.assign(myObject, {'key4': 'value4'});  // {'key1': 'value1', 'key2': 'value2', 'key3': 'value3', 'key4': 'value4'}
+`
+        }
+        language='javascript'
+        showLineNumbers='false'
+        wrapLines 
+        theme={dracula} 
+        /> 
        
         
         </OrderedList>
+        
         </Paragraph>
         <Paragraph>
         <Heading>
