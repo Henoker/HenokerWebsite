@@ -5,6 +5,7 @@ import Section from '../components/section'
 import thumbnailScamper from '../public/images/scamper.png'
 import thumbnailEPMS from '../public/images/EPMS.png'
 import thumbnailJSP from '../public/images/JSvsPython.png'
+import thumbnailData from '../public/images/DataStructures2.png'
 
 const Posts = () => (
   <Layout title="posts">
@@ -45,7 +46,7 @@ const Posts = () => (
           <PostGridItem
               id="taleTwo"
               title="Data structures in Python and JavaScript"
-              thumbnail={thumbnailJSP}
+              thumbnail={thumbnailData}
             >
               Data structures in Python and JavaScript 
           </PostGridItem>

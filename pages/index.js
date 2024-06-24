@@ -176,6 +176,8 @@ const Page = () => {
           <Link>
               Frontend Skills
           </Link>{' '} Javascript, React Js, Next js, HTML5, CSS3, Redux, SASS, Bootstrap, Material UI, Tailwind CSS, jQuery.
+          </Paragraph>
+          <Paragraph>
           <Link>
               Other Skills
           </Link>{' '} Web Scraping, Testing and Debuging, Git, Github, Heroku, Netlify, Vercel, AWS, Azure, Digital Ocean, Google Cloud, Firebase, and more

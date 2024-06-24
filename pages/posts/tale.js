@@ -19,7 +19,7 @@ const Tale = () => {
         <Heading>
         The Tale of Two Powerful Programming Languages: Python and JavaScript
         </Heading>
-        <WorkImage src="/images/scamper.png" alt="taleone" />
+        <WorkImage src="/images/pythonJavascript.png" alt="taleone" />
         <Paragraph> 
         In the vast landscape of programming languages, Python and JavaScript stand out as two of the most 
         influential and widely-used languages. Each has its own strengths, weaknesses, and unique features 

@@ -20,7 +20,7 @@ const TaleTwo = () => {
         <Heading>
         Data structures in Python and JavaScript 
         </Heading>
-        <WorkImage src="/images/scamper.png" alt="scamper" />
+        <WorkImage src="/images/dataStructures.png" alt="scamper" />
         <Paragraph> 
         Data structures are the fundamental building blocks of any programming language, providing a systematic
         way to organize, manage, and store data for efficient access and modification. Whether you&rsquo;re a 
