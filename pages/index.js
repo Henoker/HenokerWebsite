@@ -43,7 +43,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Henock Tesfatsion
             </Heading>
-            <div>Full Stack Web Developer</div>
+            <div>Full Stack Developer</div>
           </Box>
           <Box
             flexShrink={0}
@@ -175,7 +175,10 @@ const Page = () => {
           <Paragraph>
           <Link>
               Frontend Skills
-          </Link>{' '} Javascript, React Js, Next js, HTML5, CSS3, Redux, Testing and Debuging, Git, Github, Heroku, Netlify, Vercel, AWS, Azure, Digital Ocean, Google Cloud, Firebase, and more
+          </Link>{' '} Javascript, React Js, Next js, HTML5, CSS3, Redux, SASS, Bootstrap, Material UI, Tailwind CSS, jQuery.
+          <Link>
+              Other Skills
+          </Link>{' '} Web Scraping, Testing and Debuging, Git, Github, Heroku, Netlify, Vercel, AWS, Azure, Digital Ocean, Google Cloud, Firebase, and more
           </Paragraph>
           <Heading as="h3" variant="section-title">
             Hobby
