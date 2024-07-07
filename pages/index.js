@@ -162,6 +162,10 @@ const Page = () => {
             <BioYear>2024</BioYear>
             Completed IBM&apos;s Python for Data Science, AI & Development Course
           </BioSection> 
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Completed IBM&apos;s Developing AI Applications with Python and Flask
+          </BioSection> 
         </Section>
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
