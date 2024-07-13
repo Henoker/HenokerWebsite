@@ -18,7 +18,7 @@ const Whyepms = () => {
         <Heading>
         Revolutionizing Translation Project Management: A Dive into EPMS
         </Heading>
-        <WorkImage src="/images/scamper.png" alt="scamper" />
+        <WorkImage src="/images/EPMS.png" alt="EPMS" />
         <Paragraph> 
         In today&rsquo;s globalized world, effective communication across languages is paramount for businesses 
         aiming to expand their reach. However, managing translation projects for Ethiostar Translation & localization
@@ -63,7 +63,7 @@ const Whyepms = () => {
         </OrderedList>
         </Paragraph>
         <Paragraph>
-        <WorkImage src="/images/CSSframeworks.jpg" alt="scamper" />
+        <WorkImage src="/images/EthioHome.png" alt="scamper" />
         <Heading>
         The EPMS Solution
         </Heading>
@@ -107,7 +107,7 @@ const Whyepms = () => {
         </OrderedList>
         </Paragraph>
         <Paragraph>
-        <WorkImage src="/images/fullstack.jpg" alt="scamper" />
+        <WorkImage src="/images/InvoiceCreation.png" alt="scamper" />
         <Heading>
         Development Journey
         </Heading>
@@ -129,7 +129,7 @@ const Whyepms = () => {
         </UnorderedList>
         </Paragraph>
         <Paragraph>
-        <WorkImage src="/images/Responsive.jpg" alt="scamper" />
+        <WorkImage src="/images/InvoiceView.png" alt="scamper" />
         <Heading>
         Conclusion
         </Heading>
