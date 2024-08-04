@@ -21,8 +21,13 @@ const Work = () => {
           in a given country.
         </P>
         <Title>
-          A SCAMPER Version of Geopolitical Analytical Tool using React JS <Badge>2021</Badge>
+          A SCAMPER Version of Geopolitical Analytical Tool using React JS <Badge>2024</Badge>
         </Title>
+        <P>
+          This is a SCAMPER method Geopolitical Analytical tool Reacr JS app 
+          for The Python desktop app. It is a web-based application that
+          allows users to analyze political risk in any country of the world.
+        </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Github: Tinkter Code</Meta>
