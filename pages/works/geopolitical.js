@@ -20,11 +20,19 @@ const Work = () => {
           help you foresee the danger that lurks behind every political decision
           in a given country.
         </P>
+        <Title>
+          A SCAMPER Version of Geopolitical Analytical Tool using React JS <Badge>2021</Badge>
+        </Title>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Github</Meta>
+            <Meta>Github: Tinkter Code</Meta>
             <Link href="https://github.com/Henoker/GeoPolitics/tree/master">
               https://github.com/Henoker/GeoPolitics/tree/master
+              <ExternalLinkIcon mx="2px" />
+            </Link>
+            <Meta>Website: React Js </Meta>
+            <Link href="https://henoker.github.io/chess">
+              hhttps://henoker.github.io/chess
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -37,7 +45,8 @@ const Work = () => {
             <span>Python Tkinter</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/geopolitics.png" alt="geopolitics" />
+        <WorkImage src="/images/geopolitics.png" alt="Python Tinkter geopolitics" />
+        <WorkImage src="/images/react-geopolitics.png" alt="React Js geopolitics" />
       </Container>
     </Layout>
   )
