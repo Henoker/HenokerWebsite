@@ -68,7 +68,7 @@ const Works = () => {
               title="Geopolitical Analytical Tool "
               thumbnail={thumbnailgeo}
             >
-              Geopolitical Rating Tool Using Python Tkinter
+              Geopolitical Rating Tool Using Python Tkinter & React JS
             </WorkGridItem>
           </Section>
         </SimpleGrid>

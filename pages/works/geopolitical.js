@@ -37,7 +37,7 @@ const Work = () => {
             </Link>
             <Meta>Website: React Js </Meta>
             <Link href="https://henoker.github.io/chess">
-              hhttps://henoker.github.io/chess
+              https://henoker.github.io/chess
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

@@ -166,6 +166,10 @@ const Page = () => {
             <BioYear>2024</BioYear>
             Completed IBM&apos;s Developing AI Applications with Python and Flask
           </BioSection> 
+          <BioSection>
+          <BioYear>2024</BioYear>
+            Completed IBM&apos;s Django Application Development with SQL and Databases
+          </BioSection> 
         </Section>
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -184,7 +188,7 @@ const Page = () => {
           <Paragraph>
           <Link>
               Other Skills
-          </Link>{' '} Web Scraping, Testing and Debuging, Git, Github, Heroku, Netlify, Vercel, AWS, Azure, Digital Ocean, Google Cloud, Firebase, and more
+          </Link>{' '} Web Scraping, Testing and Debuging, Git, Github, Naitive Cloud applications, Containerization and orchesteration and more
           </Paragraph>
           <Heading as="h3" variant="section-title">
             Hobby
