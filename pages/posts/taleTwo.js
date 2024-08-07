@@ -203,6 +203,7 @@ let myObject = {
         <ListItem><Text as='b'>update()</Text> :Updates the dictionary with the key-value pairs from another dictionary or iterable.</ListItem>        </UnorderedList>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`my_dict = {
         'key1': 'value1', 
@@ -237,6 +238,7 @@ my_dict.update({'key4': 'value4'})
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
          <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Common object Methods in Javascript:</Text>
         <UnorderedList>
@@ -373,9 +375,7 @@ let intersectionSet = new Set(
 let differenceSet = new Set(
 [...mySet].filter(x => !anotherSet.has(x))
 ); 
-// Set {1}
-
-`
+// Set {1}`
         }
         language='javascript'
         showLineNumbers='false'
