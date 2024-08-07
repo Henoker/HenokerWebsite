@@ -1,4 +1,4 @@
-import { Container, Badge, Heading, Text} from '@chakra-ui/react'
+import { Container, Badge, Heading, Text, Box} from '@chakra-ui/react'
 import { Title, WorkImage } from '../../components/work'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
@@ -35,13 +35,14 @@ const TaleTwo = () => {
         and differences.
         </Paragraph>
         <Paragraph p={4}>
-        <OrderedList>
+        <OrderedList >
         <ListItem>
           <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
           Lists (Python) vs. Arrays (JavaScript):</Text>  In Python Lists are an ordered, mutable collection of items.
           Also, In JavaScript Arrays are also an ordered, mutable collection of items. Here are some examples of
           each:
         </ListItem>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`# Python    
 my_list = [1, 2, 3, 4]`
@@ -50,8 +51,11 @@ my_list = [1, 2, 3, 4]`
         showLineNumbers='false'
         wrapLines 
         theme={dracula} 
+        
         /> 
+        </Box>
         <Divider p={4} />
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`#JavaScript    
 let myArray = [1, 2, 3, 4];`
@@ -61,6 +65,7 @@ let myArray = [1, 2, 3, 4];`
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Common List Methods in Python:</Text>
         <UnorderedList>
@@ -74,6 +79,7 @@ let myArray = [1, 2, 3, 4];`
         </UnorderedList>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`my_list = [1, 2, 3]
 my_list.append(4)  # [1, 2, 3, 4]
@@ -89,6 +95,7 @@ my_list.reverse()  # [3, 2, 1]
         wrapLines 
         theme={dracula} 
         /> 
+        </Box> 
          <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Common List Methods in Javascript:</Text>
         <UnorderedList>
@@ -101,12 +108,14 @@ my_list.reverse()  # [3, 2, 1]
         </UnorderedList>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
+        <Box my={4} mx="auto" maxW="600px">
         <CopyBlock 
 text={`let myArray = [1, 2, 3];
 myArray.push(4);  // [1, 2, 3, 4]
 myArray.splice(1, 0, 1.5);  // [1, 1.5, 2, 3, 4]
 myArray.pop();  // [1, 1.5, 2, 3]
-myArray.splice(myArray.indexOf(1.5), 1);  // [1, 2, 3]
+myArray.splice(myArray.indexOf(1.5), 1); 
+//[1, 2, 3]
 myArray.sort((a, b) => a - b);  // [1, 2, 3]
 myArray.reverse();  // [3, 2, 1]
 `
@@ -115,13 +124,16 @@ myArray.reverse();  // [3, 2, 1]
         showLineNumbers='false'
         wrapLines 
         theme={dracula} 
+        align="center" justify="center"
         /> 
+        </Box>
          <ListItem>
           <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
           Tuples (Python) vs. Arrays (JavaScript):</Text>  In Python Tuples An ordered, immutable collection of items.
           JavaScript does not have a direct equivalent to Python&apos;s tuples, but arrays can be treated as immutable
           by avoiding methods that modify them in place or by using methods that return new arrays.
         </ListItem>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`# Python    
        my_tuple = (1, 2, 3)`
@@ -131,14 +143,15 @@ text={`# Python
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
         <Divider p={4} />
         <CopyBlock 
 text={`#JavaScript    
 const myArray = [1, 2, 3];
-// myArray[0] = 10  // Possible but to treat as immutable, avoid such assignments
-
-const newArray = myArray.concat([4]);  // [1, 2, 3, 4]
-`
+// myArray[0] = 10  // Possible but to treat as 
+//immutable, avoid such assignments
+const newArray = myArray.concat([4]); 
+// [1, 2, 3, 4]`
         }
         language='javascript'
         showLineNumbers='false'
@@ -151,25 +164,35 @@ const newArray = myArray.concat([4]);  // [1, 2, 3, 4]
           Also, In JavaScript objects are also An unordered collection of key-value pairs. Here are some examples of
           each:
         </ListItem>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`# Python    
-my_dict = {'key1': 'value1', 'key2': 'value2'}`
+my_dict = {
+'key1':'value1',
+'key2':'value2'
+}`
         }
         language='python'
         showLineNumbers='false'
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
         <Divider p={4} />
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`#JavaScript    
-let myObject = {'key1': 'value1', 'key2': 'value2'}`
+let myObject = {
+'key1': 'value1', 
+'key2': 'value2'
+}`
         }
         language='javascript'
         showLineNumbers='false'
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Common Dictionary Methods in Python:</Text>
         <UnorderedList>
@@ -181,15 +204,33 @@ let myObject = {'key1': 'value1', 'key2': 'value2'}`
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
         <CopyBlock 
-text={`my_dict = {'key1': 'value1', 'key2': 'value2'}
-my_dict['key3'] = 'value3'  # {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+text={`my_dict = {
+        'key1': 'value1', 
+        'key2': 'value2'
+        }
+my_dict['key3'] = 'value3'  
+# {
+#'key1': 'value1', 
+#'key2': 'value2', 
+#'key3': 'value3'
+#}
 value = my_dict.get('key1')  # 'value1'
-keys = my_dict.keys()  # dict_keys(['key1', 'key2', 'key3'])
-values = my_dict.values()  # dict_values(['value1', 'value2', 'value3'])
-items = my_dict.items()  # dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3')])
-my_dict.update({'key4': 'value4'})  # {'key1': 'value1', 'key2': 'value2', 'key3': 'value3', 'key4': 'value4'}
-
-`
+keys = my_dict.keys()  
+# dict_keys(['key1', 'key2', 'key3'])
+values = my_dict.values()  
+# dict_values(['value1', 'value2', 'value3'])
+items = my_dict.items()  
+# dict_items([
+#('key1', 'value1'), 
+#('key2', 'value2'), 
+#('key3', 'value3')])
+my_dict.update({'key4': 'value4'})  
+# {
+#'key1': 'value1', 
+#'key2': 'value2',
+#'key3': 'value3', 
+#'key4': 'value4'
+#}`
         }
         language='python'
         showLineNumbers='false'
@@ -205,21 +246,39 @@ my_dict.update({'key4': 'value4'})  # {'key1': 'value1', 'key2': 'value2', 'key3
         <ListItem><Text as='b'>Object.assign()</Text> :Copies the values of all enumerable own properties from one or more source objects to a target object.</ListItem>        </UnorderedList>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
-text={`let myObject = {'key1': 'value1', 'key2': 'value2'};
-myObject['key3'] = 'value3';  // {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+text={`let myObject = {
+        'key1': 'value1', 
+        'key2': 'value2'
+        };
+myObject['key3'] = 'value3';  
+// {
+//'key1': 'value1', 
+//'key2': 'value2',
+// 'key3': 'value3'}
 let value = myObject['key1'];  // 'value1'
-let keys = Object.keys(myObject);  // ['key1', 'key2', 'key3']
-let values = Object.values(myObject);  // ['value1', 'value2', 'value3']
-let entries = Object.entries(myObject);  // [['key1', 'value1'], ['key2', 'value2'], ['key3', 'value3']]
-Object.assign(myObject, {'key4': 'value4'});  // {'key1': 'value1', 'key2': 'value2', 'key3': 'value3', 'key4': 'value4'}
-`
+let keys = Object.keys(myObject);  
+// ['key1', 'key2', 'key3']
+let values = Object.values(myObject);  
+// ['value1', 'value2', 'value3']
+let entries = Object.entries(myObject);  
+// [['key1', 'value1'], 
+//['key2', 'value2'], 
+//['key3', 'value3']]
+Object.assign(myObject, {'key4': 'value4'});  
+// {
+//'key1': 'value1', 
+//'key2': 'value2', //'key3': 'value3', 
+//'key4': 'value4'
+//}`
         }
         language='javascript'
         showLineNumbers='false'
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
 
 <ListItem>
           <Text bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="2xl" fontWeight="extrabold"> 
@@ -227,6 +286,7 @@ Object.assign(myObject, {'key4': 'value4'});  // {'key1': 'value1', 'key2': 'val
           In JavaScript sets are also An unordered collection of unique items. Here are some examples of
           each:
         </ListItem>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`# Python    
 my_set = {1, 2, 3, 4}`
@@ -236,7 +296,9 @@ my_set = {1, 2, 3, 4}`
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
         <Divider p={4} />
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`#JavaScript    
 let mySet = new Set([1, 2, 3, 4]);`
@@ -246,6 +308,7 @@ let mySet = new Set([1, 2, 3, 4]);`
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Common sets Methods in Python:</Text>
         <UnorderedList>
@@ -257,14 +320,22 @@ let mySet = new Set([1, 2, 3, 4]);`
         </UnorderedList>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`my_set = {1, 2, 3}
 my_set.add(4)  # {1, 2, 3, 4}
 my_set.remove(2)  # {1, 3, 4}
 another_set = {3, 4, 5}
-union_set = my_set.union(another_set)  # {1, 3, 4, 5}
-intersection_set = my_set.intersection(another_set)  # {3, 4}
-difference_set = my_set.difference(another_set)  # {1}
+union_set = my_set.union(another_set) 
+# {1, 3, 4, 5}
+intersection_set=my_set.intersection(
+another_set
+)
+# {3, 4}
+difference_set = my_set.difference(
+another_set
+) 
+# {1}
 `
         }
         language='python'
@@ -272,6 +343,7 @@ difference_set = my_set.difference(another_set)  # {1}
         wrapLines 
         theme={dracula} 
         /> 
+        </Box>
          <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Common sets Methods in Javascript:</Text>
         <UnorderedList>
@@ -284,14 +356,24 @@ difference_set = my_set.difference(another_set)  # {1}
         </UnorderedList>
         <Divider p={4} />
         <Text fontSize="2xl" fontWeight="extrabold">Examples:</Text>
+        <Box my={4} mx="auto" maxW="800px">
         <CopyBlock 
 text={`let mySet = new Set([1, 2, 3]);
 mySet.add(4);  // Set {1, 2, 3, 4}
 mySet.delete(2);  // Set {1, 3, 4}
 let anotherSet = new Set([3, 4, 5]);
-let unionSet = new Set([...mySet, ...anotherSet]);  // Set {1, 3, 4, 5}
-let intersectionSet = new Set([...mySet].filter(x => anotherSet.has(x)));  // Set {3, 4}
-let differenceSet = new Set([...mySet].filter(x => !anotherSet.has(x)));  // Set {1}
+let unionSet = new Set(
+[...mySet,...anotherSet]
+);
+// Set {1, 3, 4, 5}
+let intersectionSet = new Set(
+[...mySet].filter(x => anotherSet.has(x))
+); 
+// Set {3, 4}
+let differenceSet = new Set(
+[...mySet].filter(x => !anotherSet.has(x))
+); 
+// Set {1}
 
 `
         }
@@ -300,7 +382,7 @@ let differenceSet = new Set([...mySet].filter(x => !anotherSet.has(x)));  // Set
         wrapLines 
         theme={dracula} 
         /> 
-       
+       </Box>
         
         </OrderedList>
         

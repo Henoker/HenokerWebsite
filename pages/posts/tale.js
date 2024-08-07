@@ -34,13 +34,14 @@ const Tale = () => {
           assigned without specifying their types explicitly. This flexibility streamlines the coding process 
           and enables rapid prototyping. For instance, consider the following Python and JavaScript snippets:
         </ListItem>
-        <CopyBlock 
-        text={`# Python    
-               x = 5   
-               x = "Hello"`
+        <CopyBlock
+         text=
+        {`# Python 
+  x = 5   
+  x = "Hello"`
         }
         language='python'
-        showLineNumbers='true'
+        showLineNumbers='false'
         wrapLines 
         theme={dracula} 
         /> 
