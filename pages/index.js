@@ -169,7 +169,8 @@ const Page = () => {
           <BioSection>
           <BioYear>2024</BioYear>
             Completed IBM&apos;s Django Application Development with SQL and Databases
-          </BioSection> 
+          </BioSection>
+          <BioSection>
           <BioYear>2024</BioYear>
             Completed IBM&apos;s Introduction to Containers w/ Docker, Kubernetes & OpenShift
           </BioSection>
