@@ -170,6 +170,9 @@ const Page = () => {
           <BioYear>2024</BioYear>
             Completed IBM&apos;s Django Application Development with SQL and Databases
           </BioSection> 
+          <BioYear>2024</BioYear>
+            Completed IBM&apos;s Introduction to Containers w/ Docker, Kubernetes & OpenShift
+          </BioSection>
         </Section>
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
