@@ -9,7 +9,12 @@ import {
   Link,
   List,
   ListItem,
-  Icon
+  Icon,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -87,6 +92,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
+      
           <BioSection>
             <BioYear>1982</BioYear>
             Born in Addis Ababa አዲስ አበባ, Ethiopia ኢትዮጵያ
@@ -115,65 +121,296 @@ const Page = () => {
             <BioYear>2017-present</BioYear>
             Became a refugee in Nairobi, Kenya and works as a freelancer
           </BioSection>
-          <BioSection>
-            <BioYear>2022</BioYear>
+          <Heading as="h4" variant="section-title">
+            Full stack Developer Journey
+          </Heading>
+          <Accordion>
+<AccordionItem>
+            <h2>
+            <AccordionButton>
+              <Box as='span' flex='1' textAlign='left'>
+              <BioSection>
+              <BioYear>2022</BioYear>
             Completed Harvard&apos;s CS50&apos;s Web Programming with Python and
             JavaScript certificate course
           </BioSection>
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    This course dives more deeply into the design and implementation of web apps
+    with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.
+    In this course I learned about database design, scalability, security, and user experience.
+    Through hands-on projects, I learn how to write and use APIs, create interactive UIs, 
+    and leverage cloud services like GitHub and Heroku. 
+    </AccordionPanel>
+</AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2022</BioYear>
             Completed John Hopkins University&apos;s HTML, CSS, and Javascript
             for Web Developers certificate course
-          </BioSection>
-          <BioSection>
+        </BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2023</BioYear>
             Completed Meta&apos;s Introduction to Frontend Development
             Professional certificate course
           </BioSection>
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2023</BioYear>
             Completed Meta&apos;s React Basics Professional certificate course
           </BioSection>
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2024</BioYear>
             Completed Codio&apos;s Advanced Django: Advanced Django Rest Framework
           </BioSection>
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2024</BioYear>
             Completed Meta&apos;s Programming with JavaScript Professional certificate course
           </BioSection>
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2024</BioYear>
             Completed IBM&apos;s Introduction to Cloud Computing
           </BioSection>
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2024</BioYear>
             Completed IBM&apos;s Developing Front-End Apps with React
           </BioSection>
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2024</BioYear>
             Completed IBM&apos;s Developing Back-End Apps with Node.js and Express
-          </BioSection>        
-          <BioSection>
+          </BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2024</BioYear>
             Completed Meta&apos;s Advanvced React Js Course
-          </BioSection>     
-          <BioSection>
+          </BioSection> 
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2024</BioYear>
             Completed IBM&apos;s Python for Data Science, AI & Development Course
           </BioSection> 
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
             <BioYear>2024</BioYear>
             Completed IBM&apos;s Developing AI Applications with Python and Flask
           </BioSection> 
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
           <BioYear>2024</BioYear>
             Completed IBM&apos;s Django Application Development with SQL and Databases
           </BioSection>
-          <BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
           <BioYear>2024</BioYear>
             Completed IBM&apos;s Introduction to Containers w/ Docker, Kubernetes & OpenShift
           </BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+          </AccordionItem>
+
+          </Accordion>
+          
+         
+          
+          
+          
+          
+          
+         
+                 
+              
+         
+          
+          
+        
         </Section>
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
