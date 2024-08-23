@@ -160,10 +160,13 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this course I learn the basic tools that every web page coder needs to know. 
+    The course intoduces concepts on how to implement modern web pages with HTML and CSS.
+    Then advances on how to code web pages such that its components rearrange and resize themselves
+    automatically based on the size of the user screen. I was able to code up a web page that will 
+    as useful on a mobile phone as on a desktop computer. Last but certainly not least, 
+    I learn about Javascript. Using Javascript, I learn how to build a fully functional web application 
+    that utilizes Ajax to expose server-side functionality and data to the end user.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -180,10 +183,12 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this course, I learn about the day-to-day responsibilities of a web developer and 
+    get a general understanding of the core and underlying technologies that power the internet.
+    I also learn how front-end developers create websites and applications that work well and are easy to maintain.
+    I was introduced to the core web development technologies like HTML and CSS and get opportunities to practice 
+    using them. I was also introduced to modern UI frameworks such as Bootstrap and React that make it easy to 
+    create interactive user experiences.  
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -199,10 +204,11 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this course, I explore the fundamental concepts that underpin the React library and learn the basic skills
+    required to build a simple, fast, and scalable app. By taking this course I was able to Use reusable components
+    to render views where data changes over time, Create more scalable and maintainable websites and apps,
+    Use props to pass data between components, Create dynamic and interactive web pages and apps, 
+    Use forms to allow users to interact with the web page, and Build an application in React.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -218,10 +224,8 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this course, I cover testing, performance considerations such as caching and throttling, 
+    use of 3rd party libraries, and integrating frontends within the context of the Django REST framework.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -237,10 +241,10 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this course, I revised and expaneded my knowledge of the basic concepts of web development with JavaScript.
+    I work with functions, objects, arrays, variables, data types, the HTML DOM, and much more. 
+    I learn how to use JavaScript and discover interactive possibilities with modern JavaScript technologies. 
+    Finally, I learn about the practice of testing code and how to write a unit test using Jest.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -256,10 +260,15 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this course, I learn about essential characteristics of cloud computing and emerging technologies supported
+    by cloud. I explore cloud service models, including Infrastructure as a Service (IaaS), Platform as a Service 
+    (PaaS), Software as a Service (SaaS), and Public, Private, and Hybrid deployment models. I Learn about cloud 
+    adoption, blockchain, analytics, and AI. I learn about the many components of cloud computing architecture 
+    including datacenters, availability zones, virtual machines, containers, and bare metal servers. 
+    I also familiarize myself with different types of cloud storage options, such as Object Storage.
+    I gain foundational knowledge of emergent cloud trends and practices including Hybrid, Multicloud, Microservices,
+    Serverless, DevOps, Cloud Native, Application Modernization, as well as learn about cloud security and 
+    monitoring.  
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
