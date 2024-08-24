@@ -284,10 +284,11 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this course, I learned how to build client-side user interfaces. I develop front-ends using components,
+    the modular building blocks of React applications. I learned about component composition to create rich 
+    functionality with features such as props, hooks, states, and event handling. I explore component lifecycles 
+    and how to pass data and manipulate component states. Finally, I Build a portfolio app and gain practical 
+    experience by completing numerous hands-on labs in each lesson. 
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -303,10 +304,11 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this course, I learned about Node.js and Express. Specifically, I explore
+    about how to develop applications using asynchronous callbacks and promises,
+    create REST APIs and perform CRUD operations, implement authentication and 
+    session management. Throughout the course, I completed numerous hands-on labs
+    to gain practical experience.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -322,10 +324,12 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this  course, I Learned how to use more advanced React concepts and features, become proficient in JSX,
+    and confidently test react applications. I examined different types of React components and learn various 
+    characteristics and when to use them. I explore more advanced hooks and create my own. I looked into building 
+    forms with React. I explored component composition and new patterns, such as Higher Order Components and 
+    Render Props. I created a web application that consumes API data and get familiar with the most commonly 
+    used React framework integrations, tools, and testing techniques.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -341,10 +345,10 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    I learned about Python basics and the different data types. I familiarize myself with Python Data structures
+    like List and Tuples, as well as logic concepts like conditions and branching. I used Python libraries such as 
+    Pandas, Numpy & Beautiful Soup. I also use Python to perform tasks such as data collection and web scraping 
+    with APIs.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -360,10 +364,11 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this mini course, I learned how to apply basic Python skills for developing Artificial Intelligence (AI) 
+    enabled applications. In the hands-on project I assume the role of a developer and perform tasks including:
+    Develop functions and application logic, Exchange data using IBM Watson AI libraries, Write unit tests, and 
+    Package the application for distribution. I demonstrated my foundational Python skills by employing different 
+    techniques to develop web applications and AI powered solutions.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -379,10 +384,15 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    Working with databases is a key skill for developers, especially those in Back-End, Full Stack, and DevOps roles.
+    In this course, I learned the fundamentals of relational databases and how to access them from applications.
+    Some of the essential application development tasks include accessing, processing, and presenting data. 
+    Data is stored in various databases, either on-premise or on the cloud, and as a developer I learned how to 
+    talk to them via programming languages. In this course, I learn about foundational database concepts, and 
+    basics of SQL.In addition to SQL, I discovered how Object-Relational Mapping (ORM) allows you to use 
+    Object-Oriented Programming (OOP) languages like Python to work with databases. I gained full-stack Django 
+    skills by creating a Django web app to persist, process, and present data. I get hands-on experience 
+    deploying my Django web app on the cloud.
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -398,10 +408,10 @@ const Page = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    In this beginner course on containers, I learned how to build cloud native applications using current 
+    containerization tools and technologies such as Docker, container registries, Kubernetes, Red Hat, OpenShift,
+    and Istio. Also I learned how to deploy and scale applications in any public, private, or hybrid cloud.  
+
     </AccordionPanel>
           </AccordionItem>
 
