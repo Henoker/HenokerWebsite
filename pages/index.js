@@ -277,6 +277,26 @@ const Page = () => {
         <Box as='span' flex='1' textAlign='left'>
         <BioSection>
             <BioYear>2024</BioYear>
+            Completed IBM&apos;s Getting Started with Git and GitHub
+          </BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    In this course, I learned about Git and Github fundamentals and explore key Git concepts such as 
+    branching and repositories, as well as the use of Git commands. I also learned and practiced various 
+    Git concepts such as forking, cloning and merging workflows using hands-on labs. And I learned how to 
+    use GitHub to work effectively as a team, and perform common Git operations, from both the Web UI and 
+    command line. 
+    </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
+            <BioYear>2024</BioYear>
             Completed IBM&apos;s Developing Front-End Apps with React
           </BioSection>
         </Box>
