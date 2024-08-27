@@ -15,6 +15,8 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
+  Text,
+  Badge,
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -144,6 +146,15 @@ const Page = () => {
     In this course I learned about database design, scalability, security, and user experience.
     Through hands-on projects, I learn how to write and use APIs, create interactive UIs, 
     and leverage cloud services like GitHub and Heroku. 
+    <Text fontSize='xl' fontWeight='bold'>
+    Skills
+  <Badge ml='1' fontSize='0.8em' colorScheme='green'>
+    Python Django JavaScript, React JS, SQL, Bootstrap
+  </Badge>
+  <Badge ml='1' fontSize='0.8em' colorScheme='green'>
+    Database Design, Scalability, Interactive UI
+  </Badge>
+    </Text>
     </AccordionPanel>
 </AccordionItem>
           <AccordionItem>
@@ -167,6 +178,15 @@ const Page = () => {
     as useful on a mobile phone as on a desktop computer. Last but certainly not least, 
     I learn about Javascript. Using Javascript, I learn how to build a fully functional web application 
     that utilizes Ajax to expose server-side functionality and data to the end user.
+    <Text fontSize='xl' fontWeight='bold'>
+    Skills
+  <Badge ml='1' fontSize='0.8em' colorScheme='green'>
+   HTML, CSS, JavaScript, Ajax
+  </Badge>
+  <Badge ml='1' fontSize='0.8em' colorScheme='green'>
+    Responsive Design
+  </Badge>
+    </Text>
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -189,6 +209,15 @@ const Page = () => {
     I was introduced to the core web development technologies like HTML and CSS and get opportunities to practice 
     using them. I was also introduced to modern UI frameworks such as Bootstrap and React that make it easy to 
     create interactive user experiences.  
+    <Text fontSize='xl' fontWeight='bold'>
+    Skills
+  <Badge ml='1' fontSize='0.8em' colorScheme='green'>
+    HTML, CSS, Bootstrap, React
+  </Badge>
+  <Badge ml='1' fontSize='0.8em' colorScheme='green'>
+    Frontend Development, Interactive UI
+  </Badge>
+    </Text>
     </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
