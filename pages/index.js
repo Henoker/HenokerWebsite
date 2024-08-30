@@ -463,6 +463,29 @@ const Page = () => {
 
     </AccordionPanel>
           </AccordionItem>
+          <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+        <BioSection>
+          <BioYear>2024</BioYear>
+            Completed IBM&apos;s Application Development using Microservices and Serverless
+          </BioSection>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    In this course, I learned how to create microservices using various methodologies.
+    Rather than building large applications, known as monoliths, that perform all the functionality, 
+    microservices break down larger applications into smaller pieces that are independently maintainable
+    and scalable, providing a host of benefits. This architecture is now used in the largest software 
+    organizations in the world, because it provides cost benefits, team autonomy, and other advantages.  
+    In the hands-on lab, I created REST APIs using Python and Flask. I learned the basics of Serverless 
+    applications, and how to run these type of applications on the IBM Cloud Code Engine.  
+
+    </AccordionPanel>
+          </AccordionItem>
 
           </Accordion>
           
