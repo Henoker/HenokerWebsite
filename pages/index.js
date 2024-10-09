@@ -576,6 +576,29 @@ const Page = () => {
                 as a Service (SaaS) solution using Cloud Native methodologies.
               </AccordionPanel>
             </AccordionItem>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box as="span" flex="1" textAlign="left">
+                    <BioSection>
+                      <BioYear>2024</BioYear>
+                      Completed IBM&apos;s Generative AI: Elevate your Software
+                      Development Career course
+                    </BioSection>
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                In this program, I completed a course on how to generate code
+                snippets, scripts, and programs using generative AI models on
+                various Application, Develop innovative solutions using Gen
+                AI-powered tools and models such as ChatGPT, GitHub CoPilot,
+                Google Gemini, and IBM Watson x Code Assistant, Explain
+                challenges and ethical considerations associated with using
+                Generative AI for programming and options for mitigating them.
+              </AccordionPanel>
+            </AccordionItem>
           </Accordion>
         </Section>
         <Section delay={0.3}>
@@ -592,8 +615,8 @@ const Page = () => {
             CSS3, Redux, SASS, Bootstrap, Material UI, Tailwind CSS, jQuery.
           </Paragraph>
           <Paragraph>
-            <Link>Other Skills</Link> Web Scraping, Testing and Debuging, Git,
-            Github, Naitive Cloud applications, Containerization and
+            <Link>Other Skills</Link> Web Scraping, Testing and Debugging, Git,
+            Github, Native Cloud applications, Containerization and
             orchesteration and more
           </Paragraph>
           <Heading as="h3" variant="section-title">
