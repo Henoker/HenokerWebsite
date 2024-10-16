@@ -298,6 +298,12 @@ const Page = () => {
                 interactive possibilities with modern JavaScript technologies.
                 Finally, I learn about the practice of testing code and how to
                 write a unit test using Jest.
+                <Text fontSize="xl" fontWeight="bold">
+                  Skills
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    JavaScript, Data Structures, Jest
+                  </Badge>
+                </Text>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
@@ -350,6 +356,12 @@ const Page = () => {
                 workflows using hands-on labs. And I learned how to use GitHub
                 to work effectively as a team, and perform common Git
                 operations, from both the Web UI and command line.
+                <Text fontSize="xl" fontWeight="bold">
+                  Skills
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    Version Control, Git, github
+                  </Badge>
+                </Text>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
@@ -395,6 +407,15 @@ const Page = () => {
                 perform CRUD operations, implement authentication and session
                 management. Throughout the course, I completed numerous hands-on
                 labs to gain practical experience.
+                <Text fontSize="xl" fontWeight="bold">
+                  Skills
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    Node JS, Express JS
+                  </Badge>
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    Rest API
+                  </Badge>
+                </Text>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
@@ -403,7 +424,7 @@ const Page = () => {
                   <Box as="span" flex="1" textAlign="left">
                     <BioSection>
                       <BioYear>2024</BioYear>
-                      Completed Meta&apos;s Advanvced React Js Course
+                      Completed Meta&apos;s Advanced React Js Course
                     </BioSection>
                   </Box>
                   <AccordionIcon />
@@ -442,6 +463,15 @@ const Page = () => {
                 I used Python libraries such as Pandas, Numpy & Beautiful Soup.
                 I also use Python to perform tasks such as data collection and
                 web scraping with APIs.
+                <Text fontSize="xl" fontWeight="bold">
+                  Skills
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    Python, AI, Pandas, Numpy
+                  </Badge>
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    Web Scraping
+                  </Badge>
+                </Text>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
@@ -498,6 +528,12 @@ const Page = () => {
                 creating a Django web app to persist, process, and present data.
                 I get hands-on experience deploying my Django web app on the
                 cloud.
+                <Text fontSize="xl" fontWeight="bold">
+                  Skills
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    SQL, Object-Relational Mapping (ORM)
+                  </Badge>
+                </Text>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
@@ -520,6 +556,12 @@ const Page = () => {
                 Kubernetes, Red Hat, OpenShift, and Istio. Also I learned how to
                 deploy and scale applications in any public, private, or hybrid
                 cloud.
+                <Text fontSize="xl" fontWeight="bold">
+                  Skills
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    Docker, Kubernetes, Red Hat, OpenShift
+                  </Badge>
+                </Text>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
