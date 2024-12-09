@@ -128,8 +128,60 @@ const Page = () => {
             <BioYear>2017-present</BioYear>
             Became a refugee in Nairobi, Kenya and works as a freelancer
           </BioSection>
+
+          <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+              Skills
+            </Heading>
+            <Paragraph>
+              <Link>Frontend Development:</Link> HTML, CSS, JavaScript, and
+              React.js (including advanced React concepts),UI/UX design and
+              development of responsive web applications.
+            </Paragraph>
+            <Paragraph>
+              <Link>Backend Development: </Link> Expertise in Python and Django
+              for server-side development, Proficiency with Node.js and Express
+              for building scalable APIs.
+            </Paragraph>
+            <Paragraph>
+              <Link>Full-Stack Application Development:</Link> Experienced in
+              integrating front-end and back-end systems, Building RESTful APIs
+              and microservices for seamless data communication.
+            </Paragraph>
+            <Paragraph>
+              <Link>Database Management:</Link> Skilled in SQL and database
+              design, Building RESTful APIs, Hands-on experience managing data
+              with both relational (PostgreSQL) and non-relational databases
+              (MongoDB).
+            </Paragraph>
+            <Paragraph>
+              <Link>DevOps and Deployment:</Link> Containerization with Docker
+              and orchestration using Kubernetes and OpenShift, Familiarity with
+              CI/CD pipelines and cloud computing for scalable deployments,
+              Expertise in version control using Git and GitHub.
+            </Paragraph>
+            <Paragraph>
+              <Link>Cloud and Scalability:</Link> Application deployment using
+              cloud services and serverless architectures,Knowledge of cloud
+              platforms like IBM Cloud and concepts like scalability and fault \
+              tolerance.
+            </Paragraph>
+            <Paragraph>
+              <Link>AI and Data Science:</Link> Python-based AI and data science
+              applications, Building AI-driven solutions with Flask.
+            </Paragraph>
+            <Heading as="h3" variant="section-title">
+              Hobby
+            </Heading>
+            <Paragraph>
+              Art, Music,{' '}
+              <Link href="https://github.com/EddieHubCommunity">
+                Open Source participation
+              </Link>
+            </Paragraph>
+          </Section>
           <Heading as="h4" variant="section-title">
-            Full stack Developer Journey
+            Full stack Developer Journey & Certificate
           </Heading>
           <Accordion>
             <AccordionItem>
@@ -643,34 +695,7 @@ const Page = () => {
             </AccordionItem>
           </Accordion>
         </Section>
-        <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
-            Skills
-          </Heading>
-          <Paragraph>
-            <Link>Backend Skills</Link> Python, Django, Node js, Express,
-            PostgreSQL, MySQL, SQLite, MongoDB, RESTful APIs, JWT (JSON Web
-            Tokens) or OAuth
-          </Paragraph>
-          <Paragraph>
-            <Link>Frontend Skills</Link> Javascript, React Js, Next js, HTML5,
-            CSS3, Redux, SASS, Bootstrap, Material UI, Tailwind CSS, jQuery.
-          </Paragraph>
-          <Paragraph>
-            <Link>Other Skills</Link> Web Scraping, Testing and Debugging, Git,
-            Github, Native Cloud applications, Containerization and
-            orchesteration and more
-          </Paragraph>
-          <Heading as="h3" variant="section-title">
-            Hobby
-          </Heading>
-          <Paragraph>
-            Art, Music,{' '}
-            <Link href="https://github.com/EddieHubCommunity">
-              Open Source participation
-            </Link>
-          </Paragraph>
-        </Section>
+
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
             My social Media Links
