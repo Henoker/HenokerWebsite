@@ -704,6 +704,12 @@ const Page = () => {
                 computing, and more. I have also deployed several applications
                 on cloud, completed a capstone project, and delivered a Software
                 as a Service (SaaS) solution using Cloud Native methodologies.
+                <Text fontSize="xl" fontWeight="bold">
+                  Skills
+                  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+                    Frontend Skills, Backend Skills, Cloud Native Apps
+                  </Badge>
+                </Text>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
