@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbnailproject2 from '../public/images/project2.png'
 import thumbnailEPMS from '../public/images/EPMS.png'
-import thumbnailephie from '../public/images/EPHIE.png'
+import thumbnailjobhunter from '../public/images/landing-page.png'
 import thumbnailethio from '../public/images/ethioservices.png'
 import thumbnailProperty from '../public/images/our-properties-catalog.png'
 import thumbnailgeo from '../public/images/geopolitics.png'
@@ -23,7 +23,7 @@ const Works = () => {
               title="EPMS Project Management App"
               thumbnail={thumbnailEPMS}
             >
-              A Translation Project Management App with Python Django 
+              A Translation Project Management App with Python Django
             </WorkGridItem>
           </Section>
           <Section>
@@ -46,11 +46,11 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem
-              id="ephie"
-              title="Restaurant Landing Page"
-              thumbnail={thumbnailephie}
+              id="jobhunter"
+              title="Job application follow up app"
+              thumbnail={thumbnailjobhunter}
             >
-              A Restaurant landing page with React/nextjs
+              A job application tracker app with React js and Python/Django
             </WorkGridItem>
           </Section>
           <Section>
