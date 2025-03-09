@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title="ephie">
       <Container>
         <Title>
-          EPHIE <Badge>2023</Badge>
+          JobHunter <Badge>2025</Badge>
         </Title>
         <P>
           This is a full stack react js frontend and Django js and PostgreSQL
