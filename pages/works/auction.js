@@ -9,18 +9,30 @@ const Work = () => {
     <Layout title="auction">
       <Container>
         <Title>
-          E-Commerce Auction APP <Badge>2022</Badge>
+          BIDHUB E-Commerce APP <Badge>2022 & 2025</Badge>
         </Title>
         <P>
           As part of my harvard CS50 course, I was expected to to Design an
           eBay-like e-commerce auction site that will allow registered users to
           post auction listings, place bids on listings, comment on those
           listings, and add listings to a watchlist. Users are able to visit a
-          page that displays a list of all listing based on categories.
+          page that displays a list of all listing based on categories. The app
+          was developed using Python/django, SQLite, Vanilla JavaScript.
+          However, This project has been upgraded from a Django-only
+          implementation to a modern full-stack architecture using Django REST
+          Framework with PostgreSQL database from backend and React.js with
+          Tailwind CSS for frontend, RESTful API interface, and Redux for
+          managing application state.
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Github</Meta>
+            <Meta>Github Full Stack modern app</Meta>
+            <Link href="https://github.com/Henoker/BidHub">
+              https://github.com/Henoker/BidHub <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Github Django Only</Meta>
             <Link href="https://github.com/Henoker/Project_2">
               https://github.com/Henoker/Project_2 <ExternalLinkIcon mx="2px" />
             </Link>
@@ -31,9 +43,13 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Tech Stacks</Meta>
-            <span>Django, JavaScript, SQLite</span>
+            <span>
+              Django, JavaScript, SQLite, RESTful API, React, Redux, Tailwind
+              CSS
+            </span>
           </ListItem>
         </List>
+        <WorkImage src="/images/bidhub.png" alt="auction" />
         <WorkImage src="/images/project2.png" alt="auction" />
       </Container>
     </Layout>
