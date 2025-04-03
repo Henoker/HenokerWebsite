@@ -12,13 +12,13 @@ const Work = () => {
           BIDHUB E-Commerce APP <Badge>2022 & 2025</Badge>
         </Title>
         <P>
-          As part of my harvard CS50 course, I was expected to to Design an
-          eBay-like e-commerce auction site that will allow registered users to
-          post auction listings, place bids on listings, comment on those
+          As part of my harvard CS50 course (2022), I was expected to to Design
+          an eBay-like e-commerce auction site that will allow registered users
+          to post auction listings, place bids on listings, comment on those
           listings, and add listings to a watchlist. Users are able to visit a
           page that displays a list of all listing based on categories. The app
           was developed using Python/django, SQLite, Vanilla JavaScript.
-          However, This project has been upgraded from a Django-only
+          However, This project has been upgraded (2025) from a Django-only
           implementation to a modern full-stack architecture using Django REST
           Framework with PostgreSQL database from backend and React.js with
           Tailwind CSS for frontend, RESTful API interface, and Redux for

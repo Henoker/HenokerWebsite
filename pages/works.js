@@ -59,7 +59,7 @@ const Works = () => {
               title="E-commerce Auction App"
               thumbnail={thumbnailproject2}
             >
-              An E-commerce Auction App
+              BIDHUB E-commerce Auction App
             </WorkGridItem>
           </Section>
           <Section>
